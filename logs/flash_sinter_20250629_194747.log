@@ -1,0 +1,1720 @@
+2025-06-29 19:47:47,264 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-29 19:47:47,429 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-29 19:47:47,452 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-29 19:47:47,543 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-29 19:47:47,545 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-29 19:47:47,547 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-29 19:47:47,554 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+
+2025-06-29 19:47:47,748 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-29 19:47:49,751 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-29 19:47:49,753 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:47:49,753 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-29 19:47:49,754 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-29 19:47:52,822 - gui.flash_sinter_gui - INFO - Selected file for saving: C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_194751.txt
+2025-06-29 19:47:54,358 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons enabled
+2025-06-29 19:47:54,358 - gui.flash_sinter_gui - INFO - Neumorphic start button activated
+2025-06-29 19:47:54,359 - gui.flash_sinter_gui - INFO - Data will be saved to: C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_194751.txt
+2025-06-29 19:47:54,359 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:47:54,359 - gui.flash_sinter_gui - INFO - Updated parameters: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-29 19:47:54,359 - gui.flash_sinter_gui - INFO - Calculated voltage: 12.00V, current: 160.00mA
+2025-06-29 19:48:05,257 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:48:05,258 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:48:05,258 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:48:05,783 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:48:05,784 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:48:05,784 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:48:06,013 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:48:06,014 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:48:06,014 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:48:09,910 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-29 19:48:09,918 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-29 19:48:09,919 - controllers.device_controller - INFO - Starting process
+2025-06-29 19:48:09,919 - controllers.device_controller - INFO - Reset CV/CC tracking - starting in CV mode
+2025-06-29 19:48:09,920 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 160.0mA (not applied yet)
+2025-06-29 19:48:09,922 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 300.00V->(5.000V), I: 160.00mA->(0.400V)
+2025-06-29 19:48:09,923 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(5.000V), I->(0.400V)
+2025-06-29 19:48:09,923 - controllers.device_controller - INFO - Applied voltage limit: 300.0V, current limit: 160.0mA
+2025-06-29 19:48:09,923 - controllers.device_controller - INFO - Applied current limit to Keithley: 160.0mA (0.16A)
+2025-06-29 19:48:09,924 - controllers.device_controller - INFO - Process started - V: 300.0V, I: 160.0mA (CV mode)
+2025-06-29 19:48:09,926 - gui.flash_sinter_gui - INFO - Started experiment with V=300.0V, I=160.0mA, Hold Time=15.0s
+2025-06-29 19:48:09,927 - gui.flash_sinter_gui - INFO - Started saving data to C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_194751.txt
+2025-06-29 19:48:09,962 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<5>
+
+Status Code: -50103
+2025-06-29 19:48:09,963 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<7>
+
+Status Code: -50103
+2025-06-29 19:48:09,963 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<8>
+
+Status Code: -50103
+2025-06-29 19:48:09,963 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<6>
+
+Status Code: -50103
+2025-06-29 19:48:09,964 - controllers.daq_keithley_controller - WARNING - Keithley error detected: -113,"Undefined header"
+2025-06-29 19:48:09,974 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0572752511467343, 1.0776522880742405], Mean: 1.0675 V, Scaled: 64.05 V
+2025-06-29 19:48:10,298 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.0138058900 µA (Measurement time: 0.334s)
+2025-06-29 19:48:10,300 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.334s)
+2025-06-29 19:48:10,458 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.0074867400 µA (Measurement time: 0.493s)
+2025-06-29 19:48:10,459 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.493s)
+2025-06-29 19:48:10,460 - gui.flash_sinter_gui - INFO - Added initial origin point (0,0) for clean graph start
+2025-06-29 19:48:10,460 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:10,490 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:10,783 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.4654491200 µA (Measurement time: 0.818s)
+2025-06-29 19:48:10,785 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.818s)
+2025-06-29 19:48:10,805 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.1927817000 µA (Measurement time: 0.504s)
+2025-06-29 19:48:10,806 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.504s)
+2025-06-29 19:48:10,807 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-29 19:48:10,810 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B>
+
+Status Code: -50103
+2025-06-29 19:48:10,825 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:10,828 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -3.1698970800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:10,828 - controllers.device_controller - DEBUG - [Keithley] Current: -0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:10,829 - controllers.device_controller - INFO - Entering incubation stage (j=1)
+2025-06-29 19:48:10,829 - controllers.device_controller - DEBUG - Updated data timer to 0.1s for stage INCUBATION
+2025-06-29 19:48:10,829 - controllers.device_controller - DEBUG - Updated display timer to 0.5s for stage INCUBATION
+2025-06-29 19:48:10,830 - controllers.device_controller - DEBUG - Updated timer periods for stage INCUBATION (1)
+2025-06-29 19:48:10,845 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:10,955 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:10,969 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.0000000000 µA (Measurement time: 0.138s)
+2025-06-29 19:48:10,969 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.138s)
+2025-06-29 19:48:10,989 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:11,290 - controllers.daq_keithley_controller - ERROR - Error checking Keithley status: invalid literal for int() with base 10: '+1.02213635E-06\n'
+2025-06-29 19:48:11,291 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-29 19:48:11,315 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8744489700 µA (Measurement time: 0.484s)
+2025-06-29 19:48:11,316 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.484s)
+2025-06-29 19:48:11,318 - controllers.daq_keithley_controller - ERROR - Error configuring Keithley: Invalid Keithley configuration: "VOLT:DC"
+2025-06-29 19:48:11,318 - controllers.device_controller - ERROR - Error reading Keithley current: Failed to reconfigure Keithley
+2025-06-29 19:48:11,334 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:11,476 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.0268438100 µA (Measurement time: 0.507s)
+2025-06-29 19:48:11,477 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.507s)
+2025-06-29 19:48:11,478 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:11,738 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:11,943 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.0453543500 µA (Measurement time: 0.627s)
+2025-06-29 19:48:11,945 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.627s)
+2025-06-29 19:48:11,975 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,271 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.9194447200 µA (Measurement time: 0.485s)
+2025-06-29 19:48:12,272 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.485s)
+2025-06-29 19:48:12,293 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.7381006100 µA (Measurement time: 0.214s)
+2025-06-29 19:48:12,294 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.214s)
+2025-06-29 19:48:12,299 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<13>
+
+Status Code: -50103
+2025-06-29 19:48:12,299 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<14>
+
+Status Code: -50103
+2025-06-29 19:48:12,302 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:12,315 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.2377746800 µA (Measurement time: 0.234s)
+2025-06-29 19:48:12,316 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.234s)
+2025-06-29 19:48:12,334 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:12,336 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.1927645800 µA (Measurement time: 0.065s)
+2025-06-29 19:48:12,337 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.065s)
+2025-06-29 19:48:12,355 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,381 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.9638029700 µA (Measurement time: 0.044s)
+2025-06-29 19:48:12,381 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.044s)
+2025-06-29 19:48:12,402 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.7159115160 µA (Measurement time: 0.065s)
+2025-06-29 19:48:12,402 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.065s)
+2025-06-29 19:48:12,402 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:12,407 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<18>
+
+Status Code: -50103
+2025-06-29 19:48:12,423 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.5561046500 µA (Measurement time: 0.086s)
+2025-06-29 19:48:12,424 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.086s)
+2025-06-29 19:48:12,425 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:12,444 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3284467400 µA (Measurement time: 0.107s)
+2025-06-29 19:48:12,446 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.107s)
+2025-06-29 19:48:12,464 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,468 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6011147500 µA (Measurement time: 0.023s)
+2025-06-29 19:48:12,469 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.023s)
+2025-06-29 19:48:12,511 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -1.3975815500 µA (Measurement time: 0.065s)
+2025-06-29 19:48:12,511 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.065s)
+2025-06-29 19:48:12,532 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.3747605390 µA (Measurement time: 0.086s)
+2025-06-29 19:48:12,532 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.086s)
+2025-06-29 19:48:12,535 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,550 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:12,554 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.5554528000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,555 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,575 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:12,577 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.7159115160 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,577 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,577 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:12,596 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:12,598 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.9885795290 µA (Measurement time: 0.043s)
+2025-06-29 19:48:12,598 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:12,641 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8281208100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:12,642 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:12,659 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 5.000231896620306], Mean: 4.9951 V, Scaled: 299.71 V
+2025-06-29 19:48:12,662 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.2384265320 µA (Measurement time: 0.064s)
+2025-06-29 19:48:12,663 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.064s)
+2025-06-29 19:48:12,667 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<20>
+
+Status Code: -50103
+2025-06-29 19:48:12,673 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,685 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8744346100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,685 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,708 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.3747605390 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,708 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,708 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:12,729 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.9644548200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:12,734 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:12,759 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<22>
+
+Status Code: -50103
+2025-06-29 19:48:12,761 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<23>
+
+Status Code: -50103
+2025-06-29 19:48:12,762 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:12,794 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:12,803 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.3290985900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:12,803 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:12,826 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -2.2155855900 µA (Measurement time: 0.023s)
+2025-06-29 19:48:12,826 - controllers.device_controller - DEBUG - [Keithley] Current: -0.002 mA (Measurement time: 0.023s)
+2025-06-29 19:48:12,844 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,847 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -1.1249135400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:12,847 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:12,860 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<27>
+
+Status Code: -50103
+2025-06-29 19:48:12,868 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3284467400 µA (Measurement time: 0.064s)
+2025-06-29 19:48:12,869 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.064s)
+2025-06-29 19:48:12,874 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:12,891 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3284467400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,891 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,933 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6011147500 µA (Measurement time: 0.064s)
+2025-06-29 19:48:12,934 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:12,935 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:12,956 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.2602806900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,957 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,959 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:12,966 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<2A>
+
+Status Code: -50103
+2025-06-29 19:48:12,982 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.1702612930 µA (Measurement time: 0.022s)
+2025-06-29 19:48:12,983 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.022s)
+2025-06-29 19:48:12,986 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:13,007 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.0776321200 µA (Measurement time: 0.024s)
+2025-06-29 19:48:13,007 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.024s)
+2025-06-29 19:48:13,028 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6699350700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,029 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,044 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:13,061 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<2D>
+
+Status Code: -50103
+2025-06-29 19:48:13,073 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:13,088 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -1.0567445300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,088 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,089 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,104 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.969666341229043], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:13,110 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.7586496000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,111 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,131 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.5792632330 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,132 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,154 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3503000800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,155 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,161 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<30>
+
+Status Code: -50103
+2025-06-29 19:48:13,162 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<31>
+
+Status Code: -50103
+2025-06-29 19:48:13,175 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:13,183 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8962884500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,184 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,227 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.5779583500 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,228 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,249 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4416243700 µA (Measurement time: 0.064s)
+2025-06-29 19:48:13,249 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.064s)
+2025-06-29 19:48:13,250 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,262 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<33>
+
+Status Code: -50103
+2025-06-29 19:48:13,263 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<34>
+
+Status Code: -50103
+2025-06-29 19:48:13,270 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 4.959477822765287], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:13,285 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8506263100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,285 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,294 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:13,307 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3509525300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,308 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,329 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.4422768100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,329 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,341 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<37>
+
+Status Code: -50103
+2025-06-29 19:48:13,355 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:13,363 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<39>
+
+Status Code: -50103
+2025-06-29 19:48:13,372 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3509525300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,372 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,380 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:13,395 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.8056166100 µA (Measurement time: 0.023s)
+2025-06-29 19:48:13,396 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.023s)
+2025-06-29 19:48:13,417 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1696088500 µA (Measurement time: 0.044s)
+2025-06-29 19:48:13,417 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.044s)
+2025-06-29 19:48:13,418 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,435 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:13,438 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3509525300 µA (Measurement time: 0.065s)
+2025-06-29 19:48:13,439 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.065s)
+2025-06-29 19:48:13,461 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.2152709900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,461 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,472 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<3C>
+
+Status Code: -50103
+2025-06-29 19:48:13,484 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:13,503 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6692826300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:13,504 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:13,525 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:13,526 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.2589758000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,526 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,547 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3503000800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,547 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,568 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<3F>
+
+Status Code: -50103
+2025-06-29 19:48:13,569 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.1683039600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,570 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,570 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,574 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<40>
+
+Status Code: -50103
+2025-06-29 19:48:13,585 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:13,591 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.4872865100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,592 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,635 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3966146700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,636 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,655 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:13,656 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3966146700 µA (Measurement time: 0.064s)
+2025-06-29 19:48:13,657 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.064s)
+2025-06-29 19:48:13,671 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<43>
+
+Status Code: -50103
+2025-06-29 19:48:13,679 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.0332748700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,679 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,679 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,686 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:13,701 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.1245991500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,701 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,724 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0782845700 µA (Measurement time: 0.023s)
+2025-06-29 19:48:13,725 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.023s)
+2025-06-29 19:48:13,735 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:13,770 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<46>
+
+Status Code: -50103
+2025-06-29 19:48:13,777 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<47>
+
+Status Code: -50103
+2025-06-29 19:48:13,779 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0782845700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,779 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,781 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<48>
+
+Status Code: -50103
+2025-06-29 19:48:13,794 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:13,801 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3509525300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,802 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,822 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.1239467100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,823 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,845 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6236204900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,846 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,866 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.9876127300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,867 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,867 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,871 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<4A>
+
+Status Code: -50103
+2025-06-29 19:48:13,872 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<4B>
+
+Status Code: -50103
+2025-06-29 19:48:13,885 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:13,915 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4416244000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,915 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,937 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.9426031300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:13,938 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.064s)
+2025-06-29 19:48:13,955 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:13,959 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.3750744980 µA (Measurement time: 0.043s)
+2025-06-29 19:48:13,959 - controllers.device_controller - DEBUG - [Keithley] Current: -0.000 mA (Measurement time: 0.043s)
+2025-06-29 19:48:13,970 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<4E>
+
+Status Code: -50103
+2025-06-29 19:48:13,981 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.7599545100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:13,981 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:13,982 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:13,985 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:14,003 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0782846200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,010 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,044 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:14,053 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4416244000 µA (Measurement time: 0.049s)
+2025-06-29 19:48:14,053 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.049s)
+2025-06-29 19:48:14,070 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<50>
+
+Status Code: -50103
+2025-06-29 19:48:14,075 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -1.3066995100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,075 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,078 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<52>
+
+Status Code: -50103
+2025-06-29 19:48:14,094 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:14,097 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.5100056100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,097 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,119 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.1016530500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,119 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,120 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:14,140 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6920010000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:14,141 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:14,171 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<54>
+
+Status Code: -50103
+2025-06-29 19:48:14,171 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<55>
+
+Status Code: -50103
+2025-06-29 19:48:14,194 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:14,215 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.0559917700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:14,216 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:14,237 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.3743212600 µA (Measurement time: 0.064s)
+2025-06-29 19:48:14,237 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.064s)
+2025-06-29 19:48:14,259 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.7376622800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:14,259 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:14,266 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<57>
+
+Status Code: -50103
+2025-06-29 19:48:14,267 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<58>
+
+Status Code: -50103
+2025-06-29 19:48:14,278 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<59>
+
+Status Code: -50103
+2025-06-29 19:48:14,281 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:14,289 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.1010033000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,290 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,311 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.5093558600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:14,312 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:14,354 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8733466400 µA (Measurement time: 0.065s)
+2025-06-29 19:48:14,355 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.065s)
+2025-06-29 19:48:14,359 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:14,368 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<5C>
+
+Status Code: -50103
+2025-06-29 19:48:14,375 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.9196576700 µA (Measurement time: 0.085s)
+2025-06-29 19:48:14,376 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.085s)
+2025-06-29 19:48:14,377 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:14,378 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:14,394 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:14,398 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6926507500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,399 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,419 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.4636945800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:14,420 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:14,442 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.7376622800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:14,443 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:14,469 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<5F>
+
+Status Code: -50103
+2025-06-29 19:48:14,484 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:14,484 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.9196576700 µA (Measurement time: 0.064s)
+2025-06-29 19:48:14,484 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.064s)
+2025-06-29 19:48:14,485 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.0000000000 µA (Measurement time: 0.001s)
+2025-06-29 19:48:14,486 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.001s)
+2025-06-29 19:48:14,504 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 5.000231896620306], Mean: 4.9951 V, Scaled: 299.71 V
+2025-06-29 19:48:14,507 - controllers.daq_keithley_controller - ERROR - Error checking Keithley status: invalid literal for int() with base 10: '+1.05543674E-05\n'
+2025-06-29 19:48:14,507 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-29 19:48:14,582 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:14,667 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.1126667600 µA (Measurement time: 0.160s)
+2025-06-29 19:48:14,669 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.160s)
+2025-06-29 19:48:14,669 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:14,701 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 4.969666341229043], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:14,807 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:14,996 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.8731231100 µA (Measurement time: 0.193s)
+2025-06-29 19:48:14,998 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.193s)
+2025-06-29 19:48:15,018 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.3277836200 µA (Measurement time: 0.213s)
+2025-06-29 19:48:15,018 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.213s)
+2025-06-29 19:48:15,021 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<65>
+
+Status Code: -50103
+2025-06-29 19:48:15,023 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,039 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7367882400 µA (Measurement time: 0.234s)
+2025-06-29 19:48:15,040 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.234s)
+2025-06-29 19:48:15,054 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:15,062 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.3271508000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,062 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,105 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.8274672300 µA (Measurement time: 0.065s)
+2025-06-29 19:48:15,105 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.065s)
+2025-06-29 19:48:15,106 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,126 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.7824441200 µA (Measurement time: 0.086s)
+2025-06-29 19:48:15,126 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.086s)
+2025-06-29 19:48:15,129 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<68>
+
+Status Code: -50103
+2025-06-29 19:48:15,134 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,148 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.1470584200 µA (Measurement time: 0.085s)
+2025-06-29 19:48:15,148 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.085s)
+2025-06-29 19:48:15,170 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.2821277300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,171 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,174 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:15,192 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.2827605100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,192 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,215 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,235 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.1007697500 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,236 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,246 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,257 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.2827605100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,258 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,258 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,262 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<6D>
+
+Status Code: -50103
+2025-06-29 19:48:15,276 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:15,280 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.0551138700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,280 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,292 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,302 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.2377374100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,303 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,329 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6917651300 µA (Measurement time: 0.049s)
+2025-06-29 19:48:15,333 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.049s)
+2025-06-29 19:48:15,351 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<70>
+
+Status Code: -50103
+2025-06-29 19:48:15,359 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,360 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<71>
+
+Status Code: -50103
+2025-06-29 19:48:15,375 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.8731231100 µA (Measurement time: 0.046s)
+2025-06-29 19:48:15,376 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.046s)
+2025-06-29 19:48:15,385 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,398 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.3734395000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,398 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,419 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2371046300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,419 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,440 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1014025300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:15,441 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.064s)
+2025-06-29 19:48:15,456 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<74>
+
+Status Code: -50103
+2025-06-29 19:48:15,463 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.1457928600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,464 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,464 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,467 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<75>
+
+Status Code: -50103
+2025-06-29 19:48:15,471 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:15,506 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.9187790000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,507 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,529 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.3728067200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,529 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,550 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6010861400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,550 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,554 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,561 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<77>
+
+Status Code: -50103
+2025-06-29 19:48:15,581 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6004533600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,581 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,582 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,585 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,603 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2371046300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,605 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,606 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,649 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.5554302600 µA (Measurement time: 0.044s)
+2025-06-29 19:48:15,650 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.044s)
+2025-06-29 19:48:15,656 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<7B>
+
+Status Code: -50103
+2025-06-29 19:48:15,672 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.0094581600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,673 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,675 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.94928930430153, 4.959477822765287], Mean: 4.9544 V, Scaled: 297.26 V
+2025-06-29 19:48:15,690 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,694 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6004536000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,695 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,717 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.4641187500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,717 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,738 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.1706329450 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,738 - controllers.device_controller - DEBUG - [Keithley] Current: -0.000 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,739 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,755 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<7E>
+
+Status Code: -50103
+2025-06-29 19:48:15,757 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<7F>
+
+Status Code: -50103
+2025-06-29 19:48:15,759 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,794 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:15,799 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.2827611200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,800 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,822 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1014035000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,823 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,843 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.0107246800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,844 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,863 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<82>
+
+Status Code: -50103
+2025-06-29 19:48:15,864 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.7374217200 µA (Measurement time: 0.064s)
+2025-06-29 19:48:15,864 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:15,867 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<83>
+
+Status Code: -50103
+2025-06-29 19:48:15,885 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,886 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6917656500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,887 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,930 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.5547975600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:15,930 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:15,930 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:15,951 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.5110412430 µA (Measurement time: 0.064s)
+2025-06-29 19:48:15,951 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.064s)
+2025-06-29 19:48:15,955 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.94928930430153], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:15,956 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<85>
+
+Status Code: -50103
+2025-06-29 19:48:15,970 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:15,978 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.5541643000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:15,978 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.022s)
+2025-06-29 19:48:15,999 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.1001369700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,001 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,023 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.1001369700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,024 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,044 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:16,056 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<89>
+
+Status Code: -50103
+2025-06-29 19:48:16,073 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,088 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.7818112400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,088 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,089 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,111 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.1470594800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,111 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,114 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,132 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.7818112400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,133 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,154 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.2827610900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,155 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,160 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<8C>
+
+Status Code: -50103
+2025-06-29 19:48:16,162 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<8D>
+
+Status Code: -50103
+2025-06-29 19:48:16,177 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,182 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.5104080100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,183 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,227 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.9181460900 µA (Measurement time: 0.044s)
+2025-06-29 19:48:16,228 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.044s)
+2025-06-29 19:48:16,248 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.4190959500 µA (Measurement time: 0.065s)
+2025-06-29 19:48:16,248 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.065s)
+2025-06-29 19:48:16,249 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,269 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<8F>
+
+Status Code: -50103
+2025-06-29 19:48:16,270 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<90>
+
+Status Code: -50103
+2025-06-29 19:48:16,279 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<91>
+
+Status Code: -50103
+2025-06-29 19:48:16,282 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:16,292 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3284171200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,292 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,314 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.0107246200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,314 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,336 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2371050600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,336 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,356 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.990043378156557], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:16,359 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<94>
+
+Status Code: -50103
+2025-06-29 19:48:16,375 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,378 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2371050600 µA (Measurement time: 0.085s)
+2025-06-29 19:48:16,378 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.085s)
+2025-06-29 19:48:16,394 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,401 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.5110412430 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,401 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,422 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.1007702100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,422 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,443 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1014034500 µA (Measurement time: 0.064s)
+2025-06-29 19:48:16,444 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.064s)
+2025-06-29 19:48:16,459 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<97>
+
+Status Code: -50103
+2025-06-29 19:48:16,466 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.8523072850 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,466 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,466 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,469 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<98>
+
+Status Code: -50103
+2025-06-29 19:48:16,481 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,509 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.7374216800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,510 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,532 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7367884500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,532 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,553 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.4634855000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,553 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,557 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<9A>
+
+Status Code: -50103
+2025-06-29 19:48:16,559 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<9B>
+
+Status Code: -50103
+2025-06-29 19:48:16,559 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 4.959477822765287], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,580 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.1457930000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,580 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,602 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6004535900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,603 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,644 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.1464262400 µA (Measurement time: 0.064s)
+2025-06-29 19:48:16,645 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:16,645 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,656 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<9D>
+
+Status Code: -50103
+2025-06-29 19:48:16,658 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<9E>
+
+Status Code: -50103
+2025-06-29 19:48:16,677 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:16,679 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.2821278600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,679 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,701 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.4197291800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,701 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,722 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.3734399200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,722 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,725 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,748 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.3290503600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,748 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,748 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,761 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A1>
+
+Status Code: -50103
+2025-06-29 19:48:16,775 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,797 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A3>
+
+Status Code: -50103
+2025-06-29 19:48:16,804 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:16,817 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.4197291800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,818 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,840 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -1.2158305300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,841 - controllers.device_controller - DEBUG - [Keithley] Current: -0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:16,860 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A5>
+
+Status Code: -50103
+2025-06-29 19:48:16,861 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.2369005500 µA (Measurement time: 0.043s)
+2025-06-29 19:48:16,861 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:16,866 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A6>
+
+Status Code: -50103
+2025-06-29 19:48:16,874 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,882 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.4639099100 µA (Measurement time: 0.064s)
+2025-06-29 19:48:16,883 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.064s)
+2025-06-29 19:48:16,906 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.9648756600 µA (Measurement time: 0.023s)
+2025-06-29 19:48:16,906 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.023s)
+2025-06-29 19:48:16,948 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.9642318200 µA (Measurement time: 0.065s)
+2025-06-29 19:48:16,949 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.065s)
+2025-06-29 19:48:16,950 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:16,960 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A8>
+
+Status Code: -50103
+2025-06-29 19:48:16,969 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.9192162600 µA (Measurement time: 0.086s)
+2025-06-29 19:48:16,970 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.086s)
+2025-06-29 19:48:16,974 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<A9>
+
+Status Code: -50103
+2025-06-29 19:48:16,981 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:16,992 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7822380500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:16,992 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,015 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.8729130200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,015 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,036 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.9642318200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,037 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,065 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<AB>
+
+Status Code: -50103
+2025-06-29 19:48:17,069 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:17,106 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:17,109 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7822380500 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,110 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,132 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.5552287100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,133 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,134 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,153 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3275755400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,154 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:17,154 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,176 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<AF>
+
+Status Code: -50103
+2025-06-29 19:48:17,177 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6008881100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,178 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,194 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,203 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8735568600 µA (Measurement time: 0.025s)
+2025-06-29 19:48:17,203 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.025s)
+2025-06-29 19:48:17,244 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:17,249 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4188943400 µA (Measurement time: 0.045s)
+2025-06-29 19:48:17,249 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.045s)
+2025-06-29 19:48:17,271 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.4195381700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,272 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,272 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,278 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B2>
+
+Status Code: -50103
+2025-06-29 19:48:17,279 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B3>
+
+Status Code: -50103
+2025-06-29 19:48:17,285 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B4>
+
+Status Code: -50103
+2025-06-29 19:48:17,288 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,300 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2825599700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,301 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,323 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6459036800 µA (Measurement time: 0.023s)
+2025-06-29 19:48:17,324 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.023s)
+2025-06-29 19:48:17,344 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.3288632000 µA (Measurement time: 0.044s)
+2025-06-29 19:48:17,346 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.044s)
+2025-06-29 19:48:17,360 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,374 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B7>
+
+Status Code: -50103
+2025-06-29 19:48:17,387 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.6928507500 µA (Measurement time: 0.086s)
+2025-06-29 19:48:17,387 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.086s)
+2025-06-29 19:48:17,390 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<B8>
+
+Status Code: -50103
+2025-06-29 19:48:17,391 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 5.000231896620306], Mean: 5.0002 V, Scaled: 300.01 V
+2025-06-29 19:48:17,409 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.3288632000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,410 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,430 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3282193700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,431 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,453 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6471913500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,453 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,474 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.7828818900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,474 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,475 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,482 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<BA>
+
+Status Code: -50103
+2025-06-29 19:48:17,490 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<BB>
+
+Status Code: -50103
+2025-06-29 19:48:17,504 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:17,525 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.9192162600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,526 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,544 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:17,548 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.5552287100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,548 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,569 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.1462256000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,570 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,590 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.990043378156557], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:17,592 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 12.1449379000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,592 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,593 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,598 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<BF>
+
+Status Code: -50103
+2025-06-29 19:48:17,605 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,617 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.4651975800 µA (Measurement time: 0.024s)
+2025-06-29 19:48:17,617 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.024s)
+2025-06-29 19:48:17,660 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.4195381700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,661 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,675 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<C1>
+
+Status Code: -50103
+2025-06-29 19:48:17,678 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 5.000231896620306], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:17,681 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4188943400 µA (Measurement time: 0.064s)
+2025-06-29 19:48:17,681 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.064s)
+2025-06-29 19:48:17,704 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.7828818900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,704 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,706 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,724 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.4639099100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,725 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,725 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,745 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,747 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.2362567000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,747 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,786 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<C5>
+
+Status Code: -50103
+2025-06-29 19:48:17,790 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -0.3978242200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,790 - controllers.device_controller - DEBUG - [Keithley] Current: -0.000 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,792 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<C6>
+
+Status Code: -50103
+2025-06-29 19:48:17,794 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<C7>
+
+Status Code: -50103
+2025-06-29 19:48:17,796 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:17,812 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.8285412900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,813 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,836 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.2832038000 µA (Measurement time: 0.023s)
+2025-06-29 19:48:17,836 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.023s)
+2025-06-29 19:48:17,857 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6008881100 µA (Measurement time: 0.044s)
+2025-06-29 19:48:17,857 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.044s)
+2025-06-29 19:48:17,857 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:17,878 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.9198600900 µA (Measurement time: 0.065s)
+2025-06-29 19:48:17,878 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.065s)
+2025-06-29 19:48:17,881 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:17,892 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<CA>
+
+Status Code: -50103
+2025-06-29 19:48:17,906 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:17,928 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.2819161300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,928 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,944 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:17,950 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8506206300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,951 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,972 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.4866325200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:17,973 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:17,992 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<CD>
+
+Status Code: -50103
+2025-06-29 19:48:17,994 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8062506400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:17,994 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:17,995 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:17,995 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,010 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.959477822765287], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:18,017 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6236117100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,017 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,060 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.8512655000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,061 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,081 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8506206300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:18,082 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.064s)
+2025-06-29 19:48:18,087 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D0>
+
+Status Code: -50103
+2025-06-29 19:48:18,093 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D1>
+
+Status Code: -50103
+2025-06-29 19:48:18,110 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.9863100800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,111 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,111 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,115 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:18,132 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.3509430700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,134 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,156 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.8049609000 µA (Measurement time: 0.023s)
+2025-06-29 19:48:18,156 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.023s)
+2025-06-29 19:48:18,174 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 5.010420415084063], Mean: 4.9951 V, Scaled: 299.71 V
+2025-06-29 19:48:18,193 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D4>
+
+Status Code: -50103
+2025-06-29 19:48:18,204 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,218 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.7599460400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,218 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,240 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3966028000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,241 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,245 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,262 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8062506400 µA (Measurement time: 0.044s)
+2025-06-29 19:48:18,264 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.044s)
+2025-06-29 19:48:18,286 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.0319698100 µA (Measurement time: 0.023s)
+2025-06-29 19:48:18,286 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.023s)
+2025-06-29 19:48:18,287 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,288 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D7>
+
+Status Code: -50103
+2025-06-29 19:48:18,290 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D8>
+
+Status Code: -50103
+2025-06-29 19:48:18,292 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<D9>
+
+Status Code: -50103
+2025-06-29 19:48:18,311 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3502981900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,312 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,315 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:18,355 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.7136414300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,355 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,359 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<DB>
+
+Status Code: -50103
+2025-06-29 19:48:18,369 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,376 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8506206300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:18,376 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.064s)
+2025-06-29 19:48:18,399 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.9875998300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,399 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,402 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<DD>
+
+Status Code: -50103
+2025-06-29 19:48:18,420 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.2602684700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,420 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,421 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,425 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,441 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.4872773900 µA (Measurement time: 0.064s)
+2025-06-29 19:48:18,442 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:18,444 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,485 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.6242565900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,485 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,506 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.4409727800 µA (Measurement time: 0.065s)
+2025-06-29 19:48:18,507 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.065s)
+2025-06-29 19:48:18,511 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<E0>
+
+Status Code: -50103
+2025-06-29 19:48:18,523 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,529 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.2602684700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,529 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,552 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.0326146800 µA (Measurement time: 0.023s)
+2025-06-29 19:48:18,553 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.023s)
+2025-06-29 19:48:18,554 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,574 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.7605909100 µA (Measurement time: 0.044s)
+2025-06-29 19:48:18,574 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.044s)
+2025-06-29 19:48:18,613 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<E3>
+
+Status Code: -50103
+2025-06-29 19:48:18,617 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.6236117100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,618 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,618 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,621 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<E4>
+
+Status Code: -50103
+2025-06-29 19:48:18,630 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,640 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.5785968500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,640 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,662 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8962803600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,663 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,684 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.3966028000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,685 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,707 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<E6>
+
+Status Code: -50103
+2025-06-29 19:48:18,710 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<E7>
+
+Status Code: -50103
+2025-06-29 19:48:18,724 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:18,729 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8962803600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,729 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,729 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,745 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:18,772 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.9412952200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,773 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,793 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 12.1676593000 µA (Measurement time: 0.064s)
+2025-06-29 19:48:18,794 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.064s)
+2025-06-29 19:48:18,805 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<EA>
+
+Status Code: -50103
+2025-06-29 19:48:18,811 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,816 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.6679817000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,816 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,819 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<EC>
+
+Status Code: -50103
+2025-06-29 19:48:18,825 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:18,839 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1695938800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,839 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,860 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3502981900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,861 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,904 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0782743800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,904 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:18,905 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:18,911 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<EE>
+
+Status Code: -50103
+2025-06-29 19:48:18,925 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.9419400600 µA (Measurement time: 0.064s)
+2025-06-29 19:48:18,925 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.064s)
+2025-06-29 19:48:18,925 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.990043378156557], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:18,940 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:18,947 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4416176400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:18,948 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:18,970 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.8512654600 µA (Measurement time: 0.023s)
+2025-06-29 19:48:18,971 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.023s)
+2025-06-29 19:48:18,991 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.5322922400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:18,991 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,005 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,006 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<F1>
+
+Status Code: -50103
+2025-06-29 19:48:19,049 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.2152535600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,050 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,054 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,071 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6017545300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:19,071 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.064s)
+2025-06-29 19:48:19,072 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,094 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.2821316200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,094 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,105 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,126 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,130 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8744229800 µA (Measurement time: 0.021s)
+2025-06-29 19:48:19,130 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.021s)
+2025-06-29 19:48:19,133 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<F6>
+
+Status Code: -50103
+2025-06-29 19:48:19,144 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,152 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0101101900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,153 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,196 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.8737759600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,197 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,197 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,205 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<F8>
+
+Status Code: -50103
+2025-06-29 19:48:19,217 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.9638027500 µA (Measurement time: 0.064s)
+2025-06-29 19:48:19,217 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.064s)
+2025-06-29 19:48:19,225 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.94928930430153, 4.9798548596928], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:19,239 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.1457973900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,240 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,242 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,261 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.6911342900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,262 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,284 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.3277920300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,285 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:19,285 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,305 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:19,324 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,330 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.0101101900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,331 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,331 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,338 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<FE>
+
+Status Code: -50103
+2025-06-29 19:48:19,346 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<FF>
+
+Status Code: -50103
+2025-06-29 19:48:19,352 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.7818081100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,352 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,354 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,374 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.6454738800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,375 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,397 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.9181423300 µA (Measurement time: 0.023s)
+2025-06-29 19:48:19,397 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.023s)
+2025-06-29 19:48:19,418 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.0094631600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,418 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,431 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<101>
+
+Status Code: -50103
+2025-06-29 19:48:19,432 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,460 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.4634792000 µA (Measurement time: 0.086s)
+2025-06-29 19:48:19,460 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.086s)
+2025-06-29 19:48:19,482 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.6454738800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,483 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,484 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,504 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6004604800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,505 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,526 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.7374417300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,527 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,527 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,531 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:19,538 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<105>
+
+Status Code: -50103
+2025-06-29 19:48:19,558 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.6004604800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,558 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,561 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:19,601 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.4184658400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,602 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,624 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.1908108000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,624 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,626 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,630 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<108>
+
+Status Code: -50103
+2025-06-29 19:48:19,644 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:19,648 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.4641262600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,649 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,671 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.7818081100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,672 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,692 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.5548000700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,693 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,693 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,709 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<10A>
+
+Status Code: -50103
+2025-06-29 19:48:19,717 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,745 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:19,752 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7367947100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,753 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,775 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.2827786400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,776 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,787 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<10D>
+
+Status Code: -50103
+2025-06-29 19:48:19,791 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,796 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.1921048300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,796 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,818 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.5554470900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,818 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,824 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:19,839 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.1007840000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,840 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,840 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:19,844 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<110>
+
+Status Code: -50103
+2025-06-29 19:48:19,844 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:19,883 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.5541530000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,885 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,906 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.0544766000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,906 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,925 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,927 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.8281155700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:19,927 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:19,932 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<113>
+
+Status Code: -50103
+2025-06-29 19:48:19,949 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6017545900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,950 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:19,952 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:19,972 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.8744230400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:19,972 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,015 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.6017545900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,016 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,016 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,020 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<115>
+
+Status Code: -50103
+2025-06-29 19:48:20,025 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:20,042 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.7824551500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,043 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,044 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.969666341229043], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:20,065 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.6011075400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,066 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,087 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 2.1470914900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,088 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,110 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,125 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:20,136 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 4.4647733200 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,136 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,137 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,139 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<11A>
+
+Status Code: -50103
+2025-06-29 19:48:20,155 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:20,179 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2371182500 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,179 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,202 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.2819158600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,202 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,211 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<11C>
+
+Status Code: -50103
+2025-06-29 19:48:20,223 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.8291975640 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,223 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,224 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:20,245 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.6002450300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,246 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,255 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.959477822765287], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:20,267 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.7365792000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,268 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,268 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,285 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:20,304 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,311 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.6452575000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,311 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,333 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.6922150500 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,334 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,337 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,338 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<121>
+
+Status Code: -50103
+2025-06-29 19:48:20,346 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<123>
+
+Status Code: -50103
+2025-06-29 19:48:20,350 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,354 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.1455817000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,355 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,377 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.1918908800 µA (Measurement time: 0.023s)
+2025-06-29 19:48:20,378 - controllers.device_controller - DEBUG - [Keithley] Current: 0.005 mA (Measurement time: 0.023s)
+2025-06-29 19:48:20,398 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.5095717000 µA (Measurement time: 0.044s)
+2025-06-29 19:48:20,399 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.044s)
+2025-06-29 19:48:20,399 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,412 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<125>
+
+Status Code: -50103
+2025-06-29 19:48:20,417 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,440 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.8722650000 µA (Measurement time: 0.086s)
+2025-06-29 19:48:20,441 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.086s)
+2025-06-29 19:48:20,462 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.0098958800 µA (Measurement time: 0.107s)
+2025-06-29 19:48:20,463 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.107s)
+2025-06-29 19:48:20,485 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.9198708900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,485 - controllers.device_controller - DEBUG - [Keithley] Current: 0.002 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,489 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.969666341229043], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-29 19:48:20,506 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.2369033700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,507 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,513 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<128>
+
+Status Code: -50103
+2025-06-29 19:48:20,528 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.9185742000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,529 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,532 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:20,571 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1468783900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,572 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,591 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,594 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.2825642100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,594 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,595 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,612 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<12B>
+
+Status Code: -50103
+2025-06-29 19:48:20,615 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,616 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.2362550000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,616 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,638 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 1.2382000600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,639 - controllers.device_controller - DEBUG - [Keithley] Current: 0.001 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,659 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.1468783900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,660 - controllers.device_controller - DEBUG - [Keithley] Current: 0.003 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,669 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<12D>
+
+Status Code: -50103
+2025-06-29 19:48:20,695 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:20,713 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.4188983700 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,714 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,735 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.5095717000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,736 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,736 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,737 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,755 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,760 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.6002450300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,760 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,782 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.2362550000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,783 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,785 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:20,816 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 14.0536117000 µA (Measurement time: 0.024s)
+2025-06-29 19:48:20,816 - controllers.device_controller - DEBUG - [Keithley] Current: 0.014 mA (Measurement time: 0.024s)
+2025-06-29 19:48:20,821 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:20,832 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<133>
+
+Status Code: -50103
+2025-06-29 19:48:20,835 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,870 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.0542600000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,870 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,884 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,893 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.6915667000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,893 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,894 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:20,914 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.9185742000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:20,914 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:20,920 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<136>
+
+Status Code: -50103
+2025-06-29 19:48:20,921 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:20,936 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.0999209000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,937 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,959 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.5545841900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:20,959 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:20,995 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,001 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.4182500300 µA (Measurement time: 0.064s)
+2025-06-29 19:48:21,001 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.064s)
+2025-06-29 19:48:21,019 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:21,023 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.3275767000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,024 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,035 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,045 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.1005692000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,046 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,046 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,069 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 12.2812675000 µA (Measurement time: 0.023s)
+2025-06-29 19:48:21,069 - controllers.device_controller - DEBUG - [Keithley] Current: 0.012 mA (Measurement time: 0.023s)
+2025-06-29 19:48:21,085 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,104 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:21,108 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.2369033700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,108 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,144 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,151 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.0549083600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,152 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,171 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,174 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.8285492000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,175 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,196 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,197 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.8272525300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,197 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,198 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,226 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.5095717000 µA (Measurement time: 0.028s)
+2025-06-29 19:48:21,227 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.028s)
+2025-06-29 19:48:21,237 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,254 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:21,260 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.9185742000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,261 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,285 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:21,304 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 3.6922150400 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,304 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,304 - controllers.device_controller - DEBUG - [Keithley] Current: 0.004 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,321 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<144>
+
+Status Code: -50103
+2025-06-29 19:48:21,325 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:21,326 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.7757482800 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,326 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,348 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.5937530600 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,349 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,370 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 13.5017817000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,370 - controllers.device_controller - DEBUG - [Keithley] Current: 0.014 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,372 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:21,391 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.8214093700 µA (Measurement time: 0.064s)
+2025-06-29 19:48:21,391 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.064s)
+2025-06-29 19:48:21,392 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,396 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<147>
+
+Status Code: -50103
+2025-06-29 19:48:21,399 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.939100785837773, 4.969666341229043], Mean: 4.9544 V, Scaled: 297.26 V
+2025-06-29 19:48:21,434 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.8664213200 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,434 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,435 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 4.9798548596928], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:21,456 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 12.8201111000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,457 - controllers.device_controller - DEBUG - [Keithley] Current: 0.013 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,475 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,477 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.2304117600 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,478 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,500 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.3660968000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,500 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,503 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:21,521 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.7307363300 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,522 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,522 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,529 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<14C>
+
+Status Code: -50103
+2025-06-29 19:48:21,545 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:21,565 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.2754237100 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,566 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,587 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.2297626000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,588 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,592 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<14E>
+
+Status Code: -50103
+2025-06-29 19:48:21,608 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.1390895800 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,609 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,614 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,630 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.1847506700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,631 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,631 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,637 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-29 19:48:21,653 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.5024309000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,654 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,683 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<151>
+
+Status Code: -50103
+2025-06-29 19:48:21,698 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 15.0014572000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,698 - controllers.device_controller - DEBUG - [Keithley] Current: 0.015 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,700 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,720 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.8207602300 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,720 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,742 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.9577435000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,743 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,747 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,765 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,770 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.4117578400 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,771 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,789 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<155>
+
+Status Code: -50103
+2025-06-29 19:48:21,793 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 12.6837770000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,793 - controllers.device_controller - DEBUG - [Keithley] Current: 0.013 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,793 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,797 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<156>
+
+Status Code: -50103
+2025-06-29 19:48:21,804 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:21,836 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.9114333000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,836 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,839 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.990043378156557], Mean: 4.9900 V, Scaled: 299.40 V
+2025-06-29 19:48:21,858 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.6387650000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,859 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,880 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 11.3204357000 µA (Measurement time: 0.043s)
+2025-06-29 19:48:21,881 - controllers.device_controller - DEBUG - [Keithley] Current: 0.011 mA (Measurement time: 0.043s)
+2025-06-29 19:48:21,886 - controllers.device_controller - ERROR - Error during voltage measurement: The specified resource is reserved. The operation could not be completed as specified.
+
+Task Name: _unnamedTask<159>
+
+Status Code: -50103
+2025-06-29 19:48:21,886 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,902 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.9570943700 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,903 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,925 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 13.7744500000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,925 - controllers.device_controller - DEBUG - [Keithley] Current: 0.014 mA (Measurement time: 0.022s)
+2025-06-29 19:48:21,946 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-29 19:48:21,968 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 9.2754237100 µA (Measurement time: 0.064s)
+2025-06-29 19:48:21,968 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.064s)
+2025-06-29 19:48:21,969 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:21,985 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:21,990 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 5.7307363100 µA (Measurement time: 0.022s)
+2025-06-29 19:48:21,990 - controllers.device_controller - DEBUG - [Keithley] Current: 0.006 mA (Measurement time: 0.022s)
+2025-06-29 19:48:22,012 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 6.9577434900 µA (Measurement time: 0.022s)
+2025-06-29 19:48:22,013 - controllers.device_controller - DEBUG - [Keithley] Current: 0.007 mA (Measurement time: 0.022s)
+2025-06-29 19:48:22,015 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:22,048 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 7.5030800100 µA (Measurement time: 0.026s)
+2025-06-29 19:48:22,049 - controllers.device_controller - DEBUG - [Keithley] Current: 0.008 mA (Measurement time: 0.026s)
+2025-06-29 19:48:22,053 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-29 19:48:22,074 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:22,077 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 10.3660968000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:22,077 - controllers.device_controller - DEBUG - [Keithley] Current: 0.010 mA (Measurement time: 0.022s)
+2025-06-29 19:48:22,105 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-29 19:48:22,120 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 8.7300871900 µA (Measurement time: 0.043s)
+2025-06-29 19:48:22,121 - controllers.device_controller - DEBUG - [Keithley] Current: 0.009 mA (Measurement time: 0.043s)
+2025-06-29 19:48:22,121 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:48:22,125 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-29 19:48:22,126 - gui.flash_sinter_gui - INFO - Neumorphic start button reset to inactive state - acquisition stopped
+2025-06-29 19:48:22,126 - controllers.device_controller - INFO - Stopping process
+2025-06-29 19:48:22,129 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-29 19:48:22,129 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-29 19:48:22,129 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-29 19:48:22,143 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 20.8638248000 µA (Measurement time: 0.022s)
+2025-06-29 19:48:22,143 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-29 19:48:22,143 - controllers.device_controller - DEBUG - [Keithley] Current: 0.021 mA (Measurement time: 0.022s)
+2025-06-29 19:48:22,144 - gui.flash_sinter_gui - INFO - Stopped process
+2025-06-29 19:48:22,144 - gui.flash_sinter_gui - INFO - Closed data file: None
+2025-06-29 19:48:22,148 - controllers.device_controller - DEBUG - [DAQ] Raw: [3.1459215362167114, 2.8912085746228158], Mean: 3.0186 V, Scaled: 181.11 V
+2025-06-29 19:48:22,154 - controllers.daq_keithley_controller - WARNING - Keithley error detected: -113,"Undefined header"
+2025-06-29 19:48:22,303 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-29 19:48:22,939 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.1137743480 µA (Measurement time: 0.323s)
+2025-06-29 19:48:22,940 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.323s)
+2025-06-29 19:48:24,376 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-29 19:48:24,402 - controllers.device_controller - INFO - Stopping process
+2025-06-29 19:48:24,404 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-29 19:48:24,405 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-29 19:48:24,405 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-29 19:48:24,405 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-29 19:48:25,350 - controllers.device_controller - INFO - Device connections closed
+2025-06-29 19:48:25,389 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

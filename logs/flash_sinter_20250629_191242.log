@@ -1,0 +1,6 @@
+2025-06-29 19:12:42,506 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-29 19:12:44,508 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-29 19:12:44,511 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-29 19:12:44,512 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-29 19:12:47,117 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-29 19:12:47,193 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

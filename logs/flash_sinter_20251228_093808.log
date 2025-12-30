@@ -1,0 +1,4 @@
+2025-12-28 09:38:08,547 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-12-28 09:38:13,731 - gui.flash_sinter_gui - ERROR - Could not open COM port: could not open port 'COM12': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2025-12-28 09:38:13,732 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-12-28 09:38:13,732 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA

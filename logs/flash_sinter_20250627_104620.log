@@ -1,0 +1,1278 @@
+2025-06-27 10:46:20,555 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-27 10:46:20,904 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-27 10:46:20,932 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-27 10:46:21,025 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-27 10:46:21,027 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-27 10:46:21,030 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-27 10:46:21,035 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+
+2025-06-27 10:46:23,180 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-27 10:47:30,725 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-27 10:47:56,639 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 563.2mA (not applied yet)
+2025-06-27 12:10:13,765 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-27 12:10:13,787 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-27 12:10:13,788 - controllers.device_controller - INFO - Starting process
+2025-06-27 12:10:13,788 - controllers.device_controller - INFO - Reset CV/CC tracking - starting in CV mode
+2025-06-27 12:10:13,788 - controllers.device_controller - INFO - Set voltage limit to 300.0V, current limit to 563.2mA (not applied yet)
+2025-06-27 12:10:13,790 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 300.00V->(5.000V), I: 563.20mA->(1.408V)
+2025-06-27 12:10:13,791 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(5.000V), I->(1.408V)
+2025-06-27 12:10:13,791 - controllers.device_controller - INFO - Applied voltage limit: 300.0V, current limit: 563.2mA
+2025-06-27 12:10:13,791 - controllers.device_controller - INFO - Applied current limit to Keithley: 563.2mA (0.5632A)
+2025-06-27 12:10:13,791 - controllers.device_controller - INFO - Process started - V: 300.0V, I: 563.2mA (CV mode)
+2025-06-27 12:10:13,849 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:13,852 - controllers.daq_keithley_controller - WARNING - Keithley error detected: -113,"Undefined header"
+2025-06-27 12:10:14,167 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-27 12:10:14,715 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 16310.5070000000 µA (Measurement time: 0.236s)
+2025-06-27 12:10:14,715 - controllers.device_controller - DEBUG - [Keithley] Current: 16.311 mA (Measurement time: 0.236s)
+2025-06-27 12:10:14,794 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:14,821 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 16559.7872000000 µA (Measurement time: 0.025s)
+2025-06-27 12:10:14,821 - controllers.device_controller - DEBUG - [Keithley] Current: 16.560 mA (Measurement time: 0.025s)
+2025-06-27 12:10:15,586 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:15,609 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 18631.9291000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:15,610 - controllers.device_controller - DEBUG - [Keithley] Current: 18.632 mA (Measurement time: 0.022s)
+2025-06-27 12:10:15,685 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:15,708 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 18912.2321000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:15,708 - controllers.device_controller - DEBUG - [Keithley] Current: 18.912 mA (Measurement time: 0.021s)
+2025-06-27 12:10:15,793 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:15,816 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 19214.3484000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:15,817 - controllers.device_controller - DEBUG - [Keithley] Current: 19.214 mA (Measurement time: 0.022s)
+2025-06-27 12:10:15,894 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.990043378156557], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:15,917 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 19493.9697000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:15,917 - controllers.device_controller - DEBUG - [Keithley] Current: 19.494 mA (Measurement time: 0.022s)
+2025-06-27 12:10:15,999 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:16,043 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 19805.3567000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:16,043 - controllers.device_controller - DEBUG - [Keithley] Current: 19.805 mA (Measurement time: 0.043s)
+2025-06-27 12:10:16,123 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:16,146 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 20194.0453000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:16,146 - controllers.device_controller - DEBUG - [Keithley] Current: 20.194 mA (Measurement time: 0.022s)
+2025-06-27 12:10:16,225 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:16,247 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 20512.6581000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:16,248 - controllers.device_controller - DEBUG - [Keithley] Current: 20.513 mA (Measurement time: 0.022s)
+2025-06-27 12:10:16,327 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:16,350 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 20831.9527000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:16,351 - controllers.device_controller - DEBUG - [Keithley] Current: 20.832 mA (Measurement time: 0.022s)
+2025-06-27 12:10:16,430 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 4.990043378156557], Mean: 4.9951 V, Scaled: 299.71 V
+2025-06-27 12:10:16,453 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 21162.4265000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:16,453 - controllers.device_controller - DEBUG - [Keithley] Current: 21.162 mA (Measurement time: 0.021s)
+2025-06-27 12:10:16,527 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:16,571 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 21477.9036000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:16,572 - controllers.device_controller - DEBUG - [Keithley] Current: 21.478 mA (Measurement time: 0.043s)
+2025-06-27 12:10:16,651 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:16,673 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 21883.6339000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:16,674 - controllers.device_controller - DEBUG - [Keithley] Current: 21.884 mA (Measurement time: 0.021s)
+2025-06-27 12:10:16,751 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.969666341229043], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-27 12:10:16,773 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 22230.0589000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:16,773 - controllers.device_controller - DEBUG - [Keithley] Current: 22.230 mA (Measurement time: 0.022s)
+2025-06-27 12:10:16,855 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:16,877 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 22597.8883000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:16,878 - controllers.device_controller - DEBUG - [Keithley] Current: 22.598 mA (Measurement time: 0.021s)
+2025-06-27 12:10:16,957 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:16,980 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 22964.3543000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:16,980 - controllers.device_controller - DEBUG - [Keithley] Current: 22.964 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,061 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:17,105 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 23352.2249000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:17,106 - controllers.device_controller - DEBUG - [Keithley] Current: 23.352 mA (Measurement time: 0.043s)
+2025-06-27 12:10:17,184 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:17,207 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 23798.5827000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,207 - controllers.device_controller - DEBUG - [Keithley] Current: 23.799 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,287 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:17,309 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 24159.3227000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,310 - controllers.device_controller - DEBUG - [Keithley] Current: 24.159 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,385 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:17,408 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 24581.9584000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,408 - controllers.device_controller - DEBUG - [Keithley] Current: 24.582 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,490 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:17,512 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 25013.7285000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,513 - controllers.device_controller - DEBUG - [Keithley] Current: 25.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,588 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:17,631 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 25423.0035000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:17,632 - controllers.device_controller - DEBUG - [Keithley] Current: 25.423 mA (Measurement time: 0.043s)
+2025-06-27 12:10:17,709 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:17,731 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 25934.2564000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,732 - controllers.device_controller - DEBUG - [Keithley] Current: 25.934 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,806 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:17,828 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 26360.9821000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,829 - controllers.device_controller - DEBUG - [Keithley] Current: 26.361 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,914 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:17,936 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 26839.7875000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:17,936 - controllers.device_controller - DEBUG - [Keithley] Current: 26.840 mA (Measurement time: 0.022s)
+2025-06-27 12:10:17,999 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:18,021 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 27247.1538000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:18,022 - controllers.device_controller - DEBUG - [Keithley] Current: 27.247 mA (Measurement time: 0.021s)
+2025-06-27 12:10:18,103 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:18,147 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 27755.9526000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:18,147 - controllers.device_controller - DEBUG - [Keithley] Current: 27.756 mA (Measurement time: 0.043s)
+2025-06-27 12:10:18,224 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:18,248 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 28347.1708000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:18,248 - controllers.device_controller - DEBUG - [Keithley] Current: 28.347 mA (Measurement time: 0.022s)
+2025-06-27 12:10:18,327 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:18,350 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 28873.5569000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:18,350 - controllers.device_controller - DEBUG - [Keithley] Current: 28.874 mA (Measurement time: 0.021s)
+2025-06-27 12:10:18,424 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:18,447 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 29385.7642000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:18,447 - controllers.device_controller - DEBUG - [Keithley] Current: 29.386 mA (Measurement time: 0.021s)
+2025-06-27 12:10:18,526 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:18,549 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 29947.8698000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:18,549 - controllers.device_controller - DEBUG - [Keithley] Current: 29.948 mA (Measurement time: 0.022s)
+2025-06-27 12:10:18,621 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:18,665 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 30258.3026000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:18,665 - controllers.device_controller - DEBUG - [Keithley] Current: 30.258 mA (Measurement time: 0.043s)
+2025-06-27 12:10:18,741 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:18,764 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 30996.5519000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:18,764 - controllers.device_controller - DEBUG - [Keithley] Current: 30.997 mA (Measurement time: 0.021s)
+2025-06-27 12:10:18,837 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.9798548596928], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:18,860 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 31489.9451000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:18,860 - controllers.device_controller - DEBUG - [Keithley] Current: 31.490 mA (Measurement time: 0.022s)
+2025-06-27 12:10:18,940 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:18,962 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 32114.2191000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:18,963 - controllers.device_controller - DEBUG - [Keithley] Current: 32.114 mA (Measurement time: 0.021s)
+2025-06-27 12:10:19,040 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:19,063 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 32771.0769000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:19,063 - controllers.device_controller - DEBUG - [Keithley] Current: 32.771 mA (Measurement time: 0.022s)
+2025-06-27 12:10:19,141 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.969666341229043], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:19,185 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 33416.4827000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:19,185 - controllers.device_controller - DEBUG - [Keithley] Current: 33.416 mA (Measurement time: 0.043s)
+2025-06-27 12:10:19,261 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:19,283 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 34242.5311000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:19,284 - controllers.device_controller - DEBUG - [Keithley] Current: 34.243 mA (Measurement time: 0.021s)
+2025-06-27 12:10:19,363 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:19,386 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 34988.4152000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:19,386 - controllers.device_controller - DEBUG - [Keithley] Current: 34.988 mA (Measurement time: 0.021s)
+2025-06-27 12:10:19,464 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:19,486 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 35742.7519000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:19,486 - controllers.device_controller - DEBUG - [Keithley] Current: 35.743 mA (Measurement time: 0.022s)
+2025-06-27 12:10:19,568 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:19,591 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 36582.5702000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:19,591 - controllers.device_controller - DEBUG - [Keithley] Current: 36.583 mA (Measurement time: 0.022s)
+2025-06-27 12:10:19,665 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:19,708 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 36852.3754000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:19,709 - controllers.device_controller - DEBUG - [Keithley] Current: 36.852 mA (Measurement time: 0.043s)
+2025-06-27 12:10:19,788 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:19,812 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 37367.5821000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:19,812 - controllers.device_controller - DEBUG - [Keithley] Current: 37.368 mA (Measurement time: 0.022s)
+2025-06-27 12:10:19,885 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.959477822765287], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:19,908 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 37907.0562000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:19,908 - controllers.device_controller - DEBUG - [Keithley] Current: 37.907 mA (Measurement time: 0.021s)
+2025-06-27 12:10:19,987 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,010 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 39077.3484000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,011 - controllers.device_controller - DEBUG - [Keithley] Current: 39.077 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,084 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,107 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 40067.8158000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,107 - controllers.device_controller - DEBUG - [Keithley] Current: 40.068 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,184 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:20,228 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 41944.4550000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:20,228 - controllers.device_controller - DEBUG - [Keithley] Current: 41.944 mA (Measurement time: 0.043s)
+2025-06-27 12:10:20,303 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:20,326 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 42861.0294000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,326 - controllers.device_controller - DEBUG - [Keithley] Current: 42.861 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,404 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,427 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 44125.3922000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,427 - controllers.device_controller - DEBUG - [Keithley] Current: 44.125 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,502 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,525 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 45445.2429000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,526 - controllers.device_controller - DEBUG - [Keithley] Current: 45.445 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,603 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,626 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 46787.5887000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,626 - controllers.device_controller - DEBUG - [Keithley] Current: 46.788 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,701 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:20,745 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 48279.2204000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:20,746 - controllers.device_controller - DEBUG - [Keithley] Current: 48.279 mA (Measurement time: 0.043s)
+2025-06-27 12:10:20,827 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:20,850 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 50270.5166000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:20,851 - controllers.device_controller - DEBUG - [Keithley] Current: 50.271 mA (Measurement time: 0.022s)
+2025-06-27 12:10:20,925 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:20,947 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 51926.5673000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:20,947 - controllers.device_controller - DEBUG - [Keithley] Current: 51.927 mA (Measurement time: 0.021s)
+2025-06-27 12:10:21,026 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:21,049 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 53906.1388000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,050 - controllers.device_controller - DEBUG - [Keithley] Current: 53.906 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,125 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:21,148 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 55884.0743000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,148 - controllers.device_controller - DEBUG - [Keithley] Current: 55.884 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,228 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.990043378156557], Mean: 4.9849 V, Scaled: 299.10 V
+2025-06-27 12:10:21,271 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 58225.6129000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:21,272 - controllers.device_controller - DEBUG - [Keithley] Current: 58.226 mA (Measurement time: 0.043s)
+2025-06-27 12:10:21,346 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.959477822765287], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:21,368 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 61166.7492000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,368 - controllers.device_controller - DEBUG - [Keithley] Current: 61.167 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,445 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.990043378156557, 4.969666341229043], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:21,468 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 64039.4456000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:21,468 - controllers.device_controller - DEBUG - [Keithley] Current: 64.039 mA (Measurement time: 0.021s)
+2025-06-27 12:10:21,545 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.969666341229043, 4.9798548596928], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:21,568 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 66762.4472000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,568 - controllers.device_controller - DEBUG - [Keithley] Current: 66.762 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,644 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.990043378156557], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:21,666 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 71596.5827000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,667 - controllers.device_controller - DEBUG - [Keithley] Current: 71.597 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,740 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.9798548596928], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:21,784 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 75760.4996000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:21,784 - controllers.device_controller - DEBUG - [Keithley] Current: 75.760 mA (Measurement time: 0.043s)
+2025-06-27 12:10:21,862 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:21,884 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 81876.5849000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,884 - controllers.device_controller - DEBUG - [Keithley] Current: 81.877 mA (Measurement time: 0.022s)
+2025-06-27 12:10:21,956 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.959477822765287, 4.969666341229043], Mean: 4.9646 V, Scaled: 297.87 V
+2025-06-27 12:10:21,980 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 86300.2183000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:21,980 - controllers.device_controller - DEBUG - [Keithley] Current: 86.300 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,058 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.939100785837773, 5.000231896620306], Mean: 4.9697 V, Scaled: 298.18 V
+2025-06-27 12:10:22,081 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 93289.1147000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,082 - controllers.device_controller - DEBUG - [Keithley] Current: 93.289 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,158 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.969666341229043], Mean: 4.9748 V, Scaled: 298.49 V
+2025-06-27 12:10:22,180 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 101929.0170000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:22,180 - controllers.device_controller - DEBUG - [Keithley] Current: 101.929 mA (Measurement time: 0.021s)
+2025-06-27 12:10:22,255 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 5.000231896620306], Mean: 5.0002 V, Scaled: 300.01 V
+2025-06-27 12:10:22,299 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 111369.4740000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:22,300 - controllers.device_controller - DEBUG - [Keithley] Current: 111.369 mA (Measurement time: 0.043s)
+2025-06-27 12:10:22,378 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.91872374891026, 5.000231896620306], Mean: 4.9595 V, Scaled: 297.57 V
+2025-06-27 12:10:22,401 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 126366.1150000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,402 - controllers.device_controller - DEBUG - [Keithley] Current: 126.366 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,483 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.908535230446503, 5.000231896620306], Mean: 4.9544 V, Scaled: 297.26 V
+2025-06-27 12:10:22,505 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 143172.9770000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,506 - controllers.device_controller - DEBUG - [Keithley] Current: 143.173 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,583 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.9798548596928], Mean: 4.9799 V, Scaled: 298.79 V
+2025-06-27 12:10:22,606 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 161004.1180000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,606 - controllers.device_controller - DEBUG - [Keithley] Current: 161.004 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,684 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 5.000231896620306], Mean: 5.0002 V, Scaled: 300.01 V
+2025-06-27 12:10:22,707 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 189009.1930000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,708 - controllers.device_controller - DEBUG - [Keithley] Current: 189.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:22,784 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.94928930430153, 4.969666341229043], Mean: 4.9595 V, Scaled: 297.57 V
+2025-06-27 12:10:22,828 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 224716.8730000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:22,828 - controllers.device_controller - DEBUG - [Keithley] Current: 224.717 mA (Measurement time: 0.043s)
+2025-06-27 12:10:22,907 - controllers.device_controller - DEBUG - [DAQ] Raw: [5.000231896620306, 5.000231896620306], Mean: 5.0002 V, Scaled: 300.01 V
+2025-06-27 12:10:22,930 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 310675.9500000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:22,930 - controllers.device_controller - DEBUG - [Keithley] Current: 310.676 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,005 - controllers.device_controller - DEBUG - [DAQ] Raw: [4.9798548596928, 4.928912267374017], Mean: 4.9544 V, Scaled: 297.26 V
+2025-06-27 12:10:23,027 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 505736.5490000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:23,027 - controllers.device_controller - DEBUG - [Keithley] Current: 505.737 mA (Measurement time: 0.021s)
+2025-06-27 12:10:23,105 - controllers.device_controller - DEBUG - [DAQ] Raw: [2.7180037607389593, 2.5957415391738863], Mean: 2.6569 V, Scaled: 159.41 V
+2025-06-27 12:10:23,128 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 659988.3900000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:23,128 - controllers.device_controller - DEBUG - [Keithley] Current: 659.988 mA (Measurement time: 0.021s)
+2025-06-27 12:10:23,204 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.3833078419869267, 1.4240619158419463], Mean: 1.4037 V, Scaled: 84.22 V
+2025-06-27 12:10:23,227 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 569258.5730000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,228 - controllers.device_controller - DEBUG - [Keithley] Current: 569.259 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,305 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.2101030281030702], Mean: 1.2101 V, Scaled: 72.61 V
+2025-06-27 12:10:23,348 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 556238.3910000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:23,349 - controllers.device_controller - DEBUG - [Keithley] Current: 556.238 mA (Measurement time: 0.043s)
+2025-06-27 12:10:23,423 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.0878408065379972], Mean: 1.1031 V, Scaled: 66.19 V
+2025-06-27 12:10:23,446 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 555620.6540000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,446 - controllers.device_controller - DEBUG - [Keithley] Current: 555.621 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,523 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.128594880393024], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:23,546 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 544165.5880000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,546 - controllers.device_controller - DEBUG - [Keithley] Current: 544.166 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,620 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0572752511467343, 1.0470867326829776], Mean: 1.0522 V, Scaled: 63.13 V
+2025-06-27 12:10:23,642 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 553496.8410000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,643 - controllers.device_controller - DEBUG - [Keithley] Current: 553.497 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,718 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1999145096393136], Mean: 1.1897 V, Scaled: 71.38 V
+2025-06-27 12:10:23,741 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 563642.0090000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,741 - controllers.device_controller - DEBUG - [Keithley] Current: 563.642 mA (Measurement time: 0.022s)
+2025-06-27 12:10:23,816 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0470867326829776], Mean: 1.0675 V, Scaled: 64.05 V
+2025-06-27 12:10:23,860 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552815.7160000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:23,861 - controllers.device_controller - DEBUG - [Keithley] Current: 552.816 mA (Measurement time: 0.043s)
+2025-06-27 12:10:23,942 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0878408065379972], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:23,965 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551876.6459999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:23,966 - controllers.device_controller - DEBUG - [Keithley] Current: 551.877 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,041 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0063326588279509, 1.0267096957554642], Mean: 1.0165 V, Scaled: 60.99 V
+2025-06-27 12:10:24,064 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551430.4249999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,064 - controllers.device_controller - DEBUG - [Keithley] Current: 551.430 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,141 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.036898214219221, 1.0470867326829776], Mean: 1.0420 V, Scaled: 62.52 V
+2025-06-27 12:10:24,163 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552108.5510000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,163 - controllers.device_controller - DEBUG - [Keithley] Current: 552.109 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,238 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0470867326829776, 0.9961441403641942], Mean: 1.0216 V, Scaled: 61.30 V
+2025-06-27 12:10:24,261 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552648.4340000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,261 - controllers.device_controller - DEBUG - [Keithley] Current: 552.648 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,340 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0470867326829776], Mean: 1.0573 V, Scaled: 63.44 V
+2025-06-27 12:10:24,385 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551715.2320000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:24,385 - controllers.device_controller - DEBUG - [Keithley] Current: 551.715 mA (Measurement time: 0.043s)
+2025-06-27 12:10:24,459 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.9859556219004375, 0.9961441403641942], Mean: 0.9910 V, Scaled: 59.46 V
+2025-06-27 12:10:24,482 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552082.1080000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,482 - controllers.device_controller - DEBUG - [Keithley] Current: 552.082 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,558 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0470867326829776, 0.9961441403641942], Mean: 1.0216 V, Scaled: 61.30 V
+2025-06-27 12:10:24,581 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 548547.6450000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,582 - controllers.device_controller - DEBUG - [Keithley] Current: 548.548 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,656 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0572752511467343, 1.0674637696104838], Mean: 1.0624 V, Scaled: 63.74 V
+2025-06-27 12:10:24,678 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552261.5229999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,678 - controllers.device_controller - DEBUG - [Keithley] Current: 552.262 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,755 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0674637696104838], Mean: 1.0675 V, Scaled: 64.05 V
+2025-06-27 12:10:24,778 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551379.0320000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:24,778 - controllers.device_controller - DEBUG - [Keithley] Current: 551.379 mA (Measurement time: 0.022s)
+2025-06-27 12:10:24,856 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0165211772917075, 1.0063326588279509], Mean: 1.0114 V, Scaled: 60.69 V
+2025-06-27 12:10:24,900 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550868.3250000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:24,901 - controllers.device_controller - DEBUG - [Keithley] Current: 550.868 mA (Measurement time: 0.043s)
+2025-06-27 12:10:24,977 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0470867326829776, 1.0267096957554642], Mean: 1.0369 V, Scaled: 62.21 V
+2025-06-27 12:10:25,000 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551398.1190000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,001 - controllers.device_controller - DEBUG - [Keithley] Current: 551.398 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,062 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.0674637696104838], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:25,085 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552787.9090000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,085 - controllers.device_controller - DEBUG - [Keithley] Current: 552.788 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,166 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0470867326829776, 1.0674637696104838], Mean: 1.0573 V, Scaled: 63.44 V
+2025-06-27 12:10:25,189 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551748.7709999999 µA (Measurement time: 0.021s)
+2025-06-27 12:10:25,189 - controllers.device_controller - DEBUG - [Keithley] Current: 551.749 mA (Measurement time: 0.021s)
+2025-06-27 12:10:25,264 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0267096957554642, 1.0165211772917075], Mean: 1.0216 V, Scaled: 61.30 V
+2025-06-27 12:10:25,286 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551233.9730000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,286 - controllers.device_controller - DEBUG - [Keithley] Current: 551.234 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,366 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.0267096957554642], Mean: 1.0522 V, Scaled: 63.13 V
+2025-06-27 12:10:25,410 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551662.4730000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:25,410 - controllers.device_controller - DEBUG - [Keithley] Current: 551.662 mA (Measurement time: 0.043s)
+2025-06-27 12:10:25,486 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0267096957554642, 1.036898214219221], Mean: 1.0318 V, Scaled: 61.91 V
+2025-06-27 12:10:25,509 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551472.0140000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,509 - controllers.device_controller - DEBUG - [Keithley] Current: 551.472 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,587 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0980293250017539], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:25,609 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550653.6000000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,610 - controllers.device_controller - DEBUG - [Keithley] Current: 550.654 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,687 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0980293250017539], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:25,710 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551900.9210000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:25,710 - controllers.device_controller - DEBUG - [Keithley] Current: 551.901 mA (Measurement time: 0.022s)
+2025-06-27 12:10:25,786 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0980293250017539], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:25,809 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551045.9700000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:25,809 - controllers.device_controller - DEBUG - [Keithley] Current: 551.046 mA (Measurement time: 0.021s)
+2025-06-27 12:10:25,882 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0572752511467343, 1.0878408065379972], Mean: 1.0726 V, Scaled: 64.35 V
+2025-06-27 12:10:25,926 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552084.1540000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:25,926 - controllers.device_controller - DEBUG - [Keithley] Current: 552.084 mA (Measurement time: 0.043s)
+2025-06-27 12:10:26,003 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0878408065379972], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:26,025 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551761.8600000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,025 - controllers.device_controller - DEBUG - [Keithley] Current: 551.762 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,101 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.036898214219221], Mean: 1.0675 V, Scaled: 64.05 V
+2025-06-27 12:10:26,124 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550816.6560000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,124 - controllers.device_controller - DEBUG - [Keithley] Current: 550.817 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,199 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.0776522880742405], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:26,222 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551052.2410000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,222 - controllers.device_controller - DEBUG - [Keithley] Current: 551.052 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,302 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0878408065379972], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:26,324 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551229.2030000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:26,325 - controllers.device_controller - DEBUG - [Keithley] Current: 551.229 mA (Measurement time: 0.021s)
+2025-06-27 12:10:26,404 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0878408065379972], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:26,448 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552009.8550000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:26,449 - controllers.device_controller - DEBUG - [Keithley] Current: 552.010 mA (Measurement time: 0.043s)
+2025-06-27 12:10:26,526 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.0572752511467343], Mean: 1.0827 V, Scaled: 64.96 V
+2025-06-27 12:10:26,548 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551885.2560000001 µA (Measurement time: 0.021s)
+2025-06-27 12:10:26,549 - controllers.device_controller - DEBUG - [Keithley] Current: 551.885 mA (Measurement time: 0.021s)
+2025-06-27 12:10:26,628 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0980293250017539], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:26,651 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550929.1450000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,651 - controllers.device_controller - DEBUG - [Keithley] Current: 550.929 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,726 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.1184063619292672], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:26,749 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550884.5630000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,750 - controllers.device_controller - DEBUG - [Keithley] Current: 550.885 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,830 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1082178434655106], Mean: 1.1184 V, Scaled: 67.10 V
+2025-06-27 12:10:26,853 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551246.1210000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:26,853 - controllers.device_controller - DEBUG - [Keithley] Current: 551.246 mA (Measurement time: 0.022s)
+2025-06-27 12:10:26,927 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.0674637696104838], Mean: 1.0726 V, Scaled: 64.35 V
+2025-06-27 12:10:26,971 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552033.8600000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:26,972 - controllers.device_controller - DEBUG - [Keithley] Current: 552.034 mA (Measurement time: 0.043s)
+2025-06-27 12:10:27,049 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:27,072 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551380.2740000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,073 - controllers.device_controller - DEBUG - [Keithley] Current: 551.380 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,146 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.128594880393024], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:27,169 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 547686.3010000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,170 - controllers.device_controller - DEBUG - [Keithley] Current: 547.686 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,248 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0878408065379972], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:27,271 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550941.8240000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,271 - controllers.device_controller - DEBUG - [Keithley] Current: 550.942 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,347 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.1387833988567806], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:27,370 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552163.2440000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,371 - controllers.device_controller - DEBUG - [Keithley] Current: 552.163 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,447 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:27,490 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551629.0870000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:27,491 - controllers.device_controller - DEBUG - [Keithley] Current: 551.629 mA (Measurement time: 0.043s)
+2025-06-27 12:10:27,566 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1387833988567806], Mean: 1.1286 V, Scaled: 67.72 V
+2025-06-27 12:10:27,589 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551625.6780000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,589 - controllers.device_controller - DEBUG - [Keithley] Current: 551.626 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,673 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.159160435784294], Mean: 1.1592 V, Scaled: 69.55 V
+2025-06-27 12:10:27,696 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551558.1930000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,696 - controllers.device_controller - DEBUG - [Keithley] Current: 551.558 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,774 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.0980293250017539], Mean: 1.1031 V, Scaled: 66.19 V
+2025-06-27 12:10:27,796 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551767.1930000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:27,796 - controllers.device_controller - DEBUG - [Keithley] Current: 551.767 mA (Measurement time: 0.021s)
+2025-06-27 12:10:27,872 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:27,895 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551925.8860000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:27,895 - controllers.device_controller - DEBUG - [Keithley] Current: 551.926 mA (Measurement time: 0.022s)
+2025-06-27 12:10:27,970 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:28,014 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552089.0780000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:28,015 - controllers.device_controller - DEBUG - [Keithley] Current: 552.089 mA (Measurement time: 0.043s)
+2025-06-27 12:10:28,095 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0776522880742405], Mean: 1.0827 V, Scaled: 64.96 V
+2025-06-27 12:10:28,118 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552179.6039999999 µA (Measurement time: 0.021s)
+2025-06-27 12:10:28,118 - controllers.device_controller - DEBUG - [Keithley] Current: 552.180 mA (Measurement time: 0.021s)
+2025-06-27 12:10:28,194 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.1184063619292672], Mean: 1.0980 V, Scaled: 65.88 V
+2025-06-27 12:10:28,216 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551847.9029999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,217 - controllers.device_controller - DEBUG - [Keithley] Current: 551.848 mA (Measurement time: 0.022s)
+2025-06-27 12:10:28,294 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.1184063619292672], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:28,317 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551932.1579999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,317 - controllers.device_controller - DEBUG - [Keithley] Current: 551.932 mA (Measurement time: 0.022s)
+2025-06-27 12:10:28,395 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1184063619292672], Mean: 1.1184 V, Scaled: 67.10 V
+2025-06-27 12:10:28,418 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551669.4430000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:28,419 - controllers.device_controller - DEBUG - [Keithley] Current: 551.669 mA (Measurement time: 0.021s)
+2025-06-27 12:10:28,499 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.0674637696104838], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:28,542 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551035.0800000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:28,543 - controllers.device_controller - DEBUG - [Keithley] Current: 551.035 mA (Measurement time: 0.043s)
+2025-06-27 12:10:28,616 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.128594880393024], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:28,639 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551134.6040000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,640 - controllers.device_controller - DEBUG - [Keithley] Current: 551.135 mA (Measurement time: 0.022s)
+2025-06-27 12:10:28,720 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.1184063619292672], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:28,743 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551666.1710000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,743 - controllers.device_controller - DEBUG - [Keithley] Current: 551.666 mA (Measurement time: 0.022s)
+2025-06-27 12:10:28,818 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.128594880393024], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:28,841 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551649.2659999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,841 - controllers.device_controller - DEBUG - [Keithley] Current: 551.649 mA (Measurement time: 0.022s)
+2025-06-27 12:10:28,916 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:28,940 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552613.5570000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:28,940 - controllers.device_controller - DEBUG - [Keithley] Current: 552.614 mA (Measurement time: 0.022s)
+2025-06-27 12:10:29,016 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.0878408065379972], Mean: 1.0827 V, Scaled: 64.96 V
+2025-06-27 12:10:29,059 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550796.2230000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:29,060 - controllers.device_controller - DEBUG - [Keithley] Current: 550.796 mA (Measurement time: 0.043s)
+2025-06-27 12:10:29,137 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:29,160 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551966.9240000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:29,160 - controllers.device_controller - DEBUG - [Keithley] Current: 551.967 mA (Measurement time: 0.022s)
+2025-06-27 12:10:29,236 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.128594880393024], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:29,258 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551488.3910000001 µA (Measurement time: 0.021s)
+2025-06-27 12:10:29,258 - controllers.device_controller - DEBUG - [Keithley] Current: 551.488 mA (Measurement time: 0.021s)
+2025-06-27 12:10:29,336 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.0878408065379972], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:29,359 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551205.3630000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:29,359 - controllers.device_controller - DEBUG - [Keithley] Current: 551.205 mA (Measurement time: 0.022s)
+2025-06-27 12:10:29,435 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.0776522880742405], Mean: 1.1031 V, Scaled: 66.19 V
+2025-06-27 12:10:29,457 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551151.3750000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:29,458 - controllers.device_controller - DEBUG - [Keithley] Current: 551.151 mA (Measurement time: 0.022s)
+2025-06-27 12:10:29,536 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:29,579 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550884.8419999999 µA (Measurement time: 0.043s)
+2025-06-27 12:10:29,579 - controllers.device_controller - DEBUG - [Keithley] Current: 550.885 mA (Measurement time: 0.043s)
+2025-06-27 12:10:29,652 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.0980293250017539], Mean: 1.0878 V, Scaled: 65.27 V
+2025-06-27 12:10:29,675 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551961.8809999999 µA (Measurement time: 0.021s)
+2025-06-27 12:10:29,675 - controllers.device_controller - DEBUG - [Keithley] Current: 551.962 mA (Measurement time: 0.021s)
+2025-06-27 12:10:29,750 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.128594880393024], Mean: 1.1286 V, Scaled: 67.72 V
+2025-06-27 12:10:29,773 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552269.0420000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:29,773 - controllers.device_controller - DEBUG - [Keithley] Current: 552.269 mA (Measurement time: 0.022s)
+2025-06-27 12:10:29,846 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0878408065379972], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:29,868 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551436.8589999999 µA (Measurement time: 0.021s)
+2025-06-27 12:10:29,868 - controllers.device_controller - DEBUG - [Keithley] Current: 551.437 mA (Measurement time: 0.021s)
+2025-06-27 12:10:29,947 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0878408065379972, 1.0674637696104838], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:29,970 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551512.9330000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:29,970 - controllers.device_controller - DEBUG - [Keithley] Current: 551.513 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,047 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.0878408065379972], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:30,091 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551619.4100000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:30,091 - controllers.device_controller - DEBUG - [Keithley] Current: 551.619 mA (Measurement time: 0.043s)
+2025-06-27 12:10:30,170 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.1184063619292672], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:30,193 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551297.6610000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,193 - controllers.device_controller - DEBUG - [Keithley] Current: 551.298 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,264 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.0572752511467343], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:30,287 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551756.6980000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,288 - controllers.device_controller - DEBUG - [Keithley] Current: 551.757 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,365 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.128594880393024], Mean: 1.1184 V, Scaled: 67.10 V
+2025-06-27 12:10:30,388 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551972.9310000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,388 - controllers.device_controller - DEBUG - [Keithley] Current: 551.973 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,465 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.0470867326829776], Mean: 1.0777 V, Scaled: 64.66 V
+2025-06-27 12:10:30,487 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551625.6880000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:30,488 - controllers.device_controller - DEBUG - [Keithley] Current: 551.626 mA (Measurement time: 0.021s)
+2025-06-27 12:10:30,567 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1082178434655106], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:30,610 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551240.1350000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:30,611 - controllers.device_controller - DEBUG - [Keithley] Current: 551.240 mA (Measurement time: 0.043s)
+2025-06-27 12:10:30,687 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.128594880393024], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:30,710 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551635.2430000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,711 - controllers.device_controller - DEBUG - [Keithley] Current: 551.635 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,790 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.1184063619292672], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:30,813 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552136.6800000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,813 - controllers.device_controller - DEBUG - [Keithley] Current: 552.137 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,887 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.0572752511467343], Mean: 1.0624 V, Scaled: 63.74 V
+2025-06-27 12:10:30,911 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551748.2640000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:30,911 - controllers.device_controller - DEBUG - [Keithley] Current: 551.748 mA (Measurement time: 0.022s)
+2025-06-27 12:10:30,989 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1082178434655106], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:31,012 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 518135.4830000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,012 - controllers.device_controller - DEBUG - [Keithley] Current: 518.135 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,085 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.250857101958097, 1.1897259911755569], Mean: 1.2203 V, Scaled: 73.22 V
+2025-06-27 12:10:31,129 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 554535.2070000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:31,129 - controllers.device_controller - DEBUG - [Keithley] Current: 554.535 mA (Measurement time: 0.043s)
+2025-06-27 12:10:31,205 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2304800650305836, 1.2406685834943403], Mean: 1.2356 V, Scaled: 74.13 V
+2025-06-27 12:10:31,229 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 553231.0350000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,229 - controllers.device_controller - DEBUG - [Keithley] Current: 553.231 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,305 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1693489542480506], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:31,327 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551076.0030000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,328 - controllers.device_controller - DEBUG - [Keithley] Current: 551.076 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,407 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2406685834943403, 1.1897259911755569], Mean: 1.2152 V, Scaled: 72.91 V
+2025-06-27 12:10:31,429 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551540.7660000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,430 - controllers.device_controller - DEBUG - [Keithley] Current: 551.541 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,504 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1795374727118002], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:31,527 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552032.9330000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,527 - controllers.device_controller - DEBUG - [Keithley] Current: 552.033 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,608 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.2101030281030702], Mean: 1.1999 V, Scaled: 71.99 V
+2025-06-27 12:10:31,652 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551073.2760000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:31,652 - controllers.device_controller - DEBUG - [Keithley] Current: 551.073 mA (Measurement time: 0.043s)
+2025-06-27 12:10:31,726 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.220291546566827], Mean: 1.2101 V, Scaled: 72.61 V
+2025-06-27 12:10:31,751 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551738.1780000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,751 - controllers.device_controller - DEBUG - [Keithley] Current: 551.738 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,830 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1999145096393136], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:31,853 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551317.1780000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,853 - controllers.device_controller - DEBUG - [Keithley] Current: 551.317 mA (Measurement time: 0.022s)
+2025-06-27 12:10:31,927 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.2101030281030702], Mean: 1.2050 V, Scaled: 72.30 V
+2025-06-27 12:10:31,950 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550722.2160000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:31,950 - controllers.device_controller - DEBUG - [Keithley] Current: 550.722 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,033 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.1897259911755569], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:32,056 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551980.7169999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,056 - controllers.device_controller - DEBUG - [Keithley] Current: 551.981 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,131 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2304800650305836, 1.2304800650305836], Mean: 1.2305 V, Scaled: 73.83 V
+2025-06-27 12:10:32,174 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552238.7970000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:32,175 - controllers.device_controller - DEBUG - [Keithley] Current: 552.239 mA (Measurement time: 0.043s)
+2025-06-27 12:10:32,254 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1999145096393136], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:32,276 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551457.0570000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,277 - controllers.device_controller - DEBUG - [Keithley] Current: 551.457 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,351 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1999145096393136], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:32,374 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 553379.6450000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,374 - controllers.device_controller - DEBUG - [Keithley] Current: 553.380 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,453 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.1489719173205373], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:32,475 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551632.5220000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,476 - controllers.device_controller - DEBUG - [Keithley] Current: 551.633 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,550 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1795374727118002], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:32,573 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552330.9619999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,573 - controllers.device_controller - DEBUG - [Keithley] Current: 552.331 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,655 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:32,699 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552107.2379999999 µA (Measurement time: 0.043s)
+2025-06-27 12:10:32,699 - controllers.device_controller - DEBUG - [Keithley] Current: 552.107 mA (Measurement time: 0.043s)
+2025-06-27 12:10:32,775 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.128594880393024], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:32,798 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 549800.3270000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,798 - controllers.device_controller - DEBUG - [Keithley] Current: 549.800 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,877 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.2101030281030702], Mean: 1.2101 V, Scaled: 72.61 V
+2025-06-27 12:10:32,900 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551730.4100000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,900 - controllers.device_controller - DEBUG - [Keithley] Current: 551.730 mA (Measurement time: 0.022s)
+2025-06-27 12:10:32,975 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.159160435784294], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:32,997 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552409.3540000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:32,997 - controllers.device_controller - DEBUG - [Keithley] Current: 552.409 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,074 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1795374727118002], Mean: 1.1744 V, Scaled: 70.47 V
+2025-06-27 12:10:33,096 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552520.0580000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,097 - controllers.device_controller - DEBUG - [Keithley] Current: 552.520 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,170 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1082178434655106], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:33,213 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551771.0380000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:33,214 - controllers.device_controller - DEBUG - [Keithley] Current: 551.771 mA (Measurement time: 0.043s)
+2025-06-27 12:10:33,295 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1693489542480506], Mean: 1.1693 V, Scaled: 70.16 V
+2025-06-27 12:10:33,318 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552285.0170000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,319 - controllers.device_controller - DEBUG - [Keithley] Current: 552.285 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,393 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1897259911755569], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:33,415 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551011.2470000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,416 - controllers.device_controller - DEBUG - [Keithley] Current: 551.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,496 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1184063619292672], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:33,519 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551618.0710000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,519 - controllers.device_controller - DEBUG - [Keithley] Current: 551.618 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,593 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1795374727118002], Mean: 1.1744 V, Scaled: 70.47 V
+2025-06-27 12:10:33,616 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550770.3450000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,617 - controllers.device_controller - DEBUG - [Keithley] Current: 550.770 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,698 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.128594880393024], Mean: 1.1286 V, Scaled: 67.72 V
+2025-06-27 12:10:33,742 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 549761.1990000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:33,742 - controllers.device_controller - DEBUG - [Keithley] Current: 549.761 mA (Measurement time: 0.043s)
+2025-06-27 12:10:33,818 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:33,841 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550478.0440000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,841 - controllers.device_controller - DEBUG - [Keithley] Current: 550.478 mA (Measurement time: 0.022s)
+2025-06-27 12:10:33,920 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.2101030281030702], Mean: 1.2050 V, Scaled: 72.30 V
+2025-06-27 12:10:33,942 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551506.4130000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:33,943 - controllers.device_controller - DEBUG - [Keithley] Current: 551.506 mA (Measurement time: 0.022s)
+2025-06-27 12:10:34,017 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1693489542480506], Mean: 1.1744 V, Scaled: 70.47 V
+2025-06-27 12:10:34,040 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551827.7530000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:34,041 - controllers.device_controller - DEBUG - [Keithley] Current: 551.828 mA (Measurement time: 0.022s)
+2025-06-27 12:10:34,109 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1897259911755569], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:34,131 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551143.9000000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:34,132 - controllers.device_controller - DEBUG - [Keithley] Current: 551.144 mA (Measurement time: 0.022s)
+2025-06-27 12:10:34,208 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.1795374727118002], Mean: 1.1897 V, Scaled: 71.38 V
+2025-06-27 12:10:34,252 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551814.8010000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:34,253 - controllers.device_controller - DEBUG - [Keithley] Current: 551.815 mA (Measurement time: 0.043s)
+2025-06-27 12:10:34,334 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.2101030281030702], Mean: 1.1999 V, Scaled: 71.99 V
+2025-06-27 12:10:34,357 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 554283.4070000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:34,357 - controllers.device_controller - DEBUG - [Keithley] Current: 554.283 mA (Measurement time: 0.021s)
+2025-06-27 12:10:34,430 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.128594880393024], Mean: 1.1286 V, Scaled: 67.72 V
+2025-06-27 12:10:34,453 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552320.7400000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:34,453 - controllers.device_controller - DEBUG - [Keithley] Current: 552.321 mA (Measurement time: 0.021s)
+2025-06-27 12:10:34,532 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.1489719173205373], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:34,555 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552571.7310000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:34,555 - controllers.device_controller - DEBUG - [Keithley] Current: 552.572 mA (Measurement time: 0.022s)
+2025-06-27 12:10:34,634 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.0878408065379972], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:34,656 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 492503.4390000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:34,657 - controllers.device_controller - DEBUG - [Keithley] Current: 492.503 mA (Measurement time: 0.022s)
+2025-06-27 12:10:34,739 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.220291546566827, 1.2304800650305836], Mean: 1.2254 V, Scaled: 73.52 V
+2025-06-27 12:10:34,783 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 555578.7180000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:34,784 - controllers.device_controller - DEBUG - [Keithley] Current: 555.579 mA (Measurement time: 0.043s)
+2025-06-27 12:10:34,862 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.0980293250017539], Mean: 1.0980 V, Scaled: 65.88 V
+2025-06-27 12:10:34,884 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 554304.6910000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:34,884 - controllers.device_controller - DEBUG - [Keithley] Current: 554.305 mA (Measurement time: 0.021s)
+2025-06-27 12:10:34,964 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1184063619292672], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:34,987 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552500.1720000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:34,987 - controllers.device_controller - DEBUG - [Keithley] Current: 552.500 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,063 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.0878408065379972], Mean: 1.0929 V, Scaled: 65.58 V
+2025-06-27 12:10:35,085 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552259.1329999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,085 - controllers.device_controller - DEBUG - [Keithley] Current: 552.259 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,166 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1082178434655106], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:35,189 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551949.5180000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,189 - controllers.device_controller - DEBUG - [Keithley] Current: 551.950 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,263 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1489719173205373], Mean: 1.1388 V, Scaled: 68.33 V
+2025-06-27 12:10:35,307 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552281.2190000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:35,307 - controllers.device_controller - DEBUG - [Keithley] Current: 552.281 mA (Measurement time: 0.043s)
+2025-06-27 12:10:35,387 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.1184063619292672], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:35,410 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551835.2680000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,411 - controllers.device_controller - DEBUG - [Keithley] Current: 551.835 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,486 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.159160435784294], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:35,509 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552235.5460000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,509 - controllers.device_controller - DEBUG - [Keithley] Current: 552.236 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,589 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0776522880742405, 1.0674637696104838], Mean: 1.0726 V, Scaled: 64.35 V
+2025-06-27 12:10:35,612 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550927.9640000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,612 - controllers.device_controller - DEBUG - [Keithley] Current: 550.928 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,688 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.128594880393024], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:35,711 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552376.7880000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,711 - controllers.device_controller - DEBUG - [Keithley] Current: 552.377 mA (Measurement time: 0.022s)
+2025-06-27 12:10:35,791 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.128594880393024], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:35,835 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551861.9900000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:35,835 - controllers.device_controller - DEBUG - [Keithley] Current: 551.862 mA (Measurement time: 0.043s)
+2025-06-27 12:10:35,915 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0980293250017539, 1.1184063619292672], Mean: 1.1082 V, Scaled: 66.49 V
+2025-06-27 12:10:35,937 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551452.7150000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:35,938 - controllers.device_controller - DEBUG - [Keithley] Current: 551.453 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,019 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.128594880393024], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:36,041 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551047.2570000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:36,042 - controllers.device_controller - DEBUG - [Keithley] Current: 551.047 mA (Measurement time: 0.021s)
+2025-06-27 12:10:36,117 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.0674637696104838, 1.1387833988567806], Mean: 1.1031 V, Scaled: 66.19 V
+2025-06-27 12:10:36,139 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551045.2120000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,139 - controllers.device_controller - DEBUG - [Keithley] Current: 551.045 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,217 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.1082178434655106], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:36,240 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551663.3510000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,241 - controllers.device_controller - DEBUG - [Keithley] Current: 551.663 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,319 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1082178434655106], Mean: 1.1286 V, Scaled: 67.72 V
+2025-06-27 12:10:36,363 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551767.9280000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:36,363 - controllers.device_controller - DEBUG - [Keithley] Current: 551.768 mA (Measurement time: 0.043s)
+2025-06-27 12:10:36,445 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.128594880393024], Mean: 1.1184 V, Scaled: 67.10 V
+2025-06-27 12:10:36,468 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551312.7080000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,468 - controllers.device_controller - DEBUG - [Keithley] Current: 551.313 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,543 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.0980293250017539], Mean: 1.1133 V, Scaled: 66.80 V
+2025-06-27 12:10:36,566 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551263.6279999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,566 - controllers.device_controller - DEBUG - [Keithley] Current: 551.264 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,645 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1693489542480506], Mean: 1.1592 V, Scaled: 69.55 V
+2025-06-27 12:10:36,667 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550843.4460000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,668 - controllers.device_controller - DEBUG - [Keithley] Current: 550.843 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,743 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.0980293250017539], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:36,767 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551833.0960000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,767 - controllers.device_controller - DEBUG - [Keithley] Current: 551.833 mA (Measurement time: 0.022s)
+2025-06-27 12:10:36,849 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1489719173205373], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:36,892 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551715.8480000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:36,893 - controllers.device_controller - DEBUG - [Keithley] Current: 551.716 mA (Measurement time: 0.043s)
+2025-06-27 12:10:36,971 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1387833988567806, 1.1489719173205373], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:36,993 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551552.2470000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:36,994 - controllers.device_controller - DEBUG - [Keithley] Current: 551.552 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,077 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.0878408065379972], Mean: 1.1184 V, Scaled: 67.10 V
+2025-06-27 12:10:37,101 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551601.1910000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,101 - controllers.device_controller - DEBUG - [Keithley] Current: 551.601 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,177 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1693489542480506], Mean: 1.1643 V, Scaled: 69.86 V
+2025-06-27 12:10:37,200 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551401.0530000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,200 - controllers.device_controller - DEBUG - [Keithley] Current: 551.401 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,289 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:37,312 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551864.7250000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,312 - controllers.device_controller - DEBUG - [Keithley] Current: 551.865 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,387 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.128594880393024], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:37,431 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551872.2240000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:37,432 - controllers.device_controller - DEBUG - [Keithley] Current: 551.872 mA (Measurement time: 0.043s)
+2025-06-27 12:10:37,511 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1693489542480506], Mean: 1.1643 V, Scaled: 69.86 V
+2025-06-27 12:10:37,533 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551464.7210000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,533 - controllers.device_controller - DEBUG - [Keithley] Current: 551.465 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,610 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1693489542480506], Mean: 1.1643 V, Scaled: 69.86 V
+2025-06-27 12:10:37,633 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550836.2200000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,633 - controllers.device_controller - DEBUG - [Keithley] Current: 550.836 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,707 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1693489542480506], Mean: 1.1693 V, Scaled: 70.16 V
+2025-06-27 12:10:37,730 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551605.9630000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,731 - controllers.device_controller - DEBUG - [Keithley] Current: 551.606 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,806 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.128594880393024], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:37,829 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551738.3430000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:37,829 - controllers.device_controller - DEBUG - [Keithley] Current: 551.738 mA (Measurement time: 0.022s)
+2025-06-27 12:10:37,905 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.128594880393024], Mean: 1.1388 V, Scaled: 68.33 V
+2025-06-27 12:10:37,949 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551235.2700000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:37,949 - controllers.device_controller - DEBUG - [Keithley] Current: 551.235 mA (Measurement time: 0.043s)
+2025-06-27 12:10:38,024 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1693489542480506], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:38,047 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551784.8330000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:38,047 - controllers.device_controller - DEBUG - [Keithley] Current: 551.785 mA (Measurement time: 0.021s)
+2025-06-27 12:10:38,124 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.128594880393024], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:38,147 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551708.6230000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:38,147 - controllers.device_controller - DEBUG - [Keithley] Current: 551.709 mA (Measurement time: 0.021s)
+2025-06-27 12:10:38,222 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1693489542480506], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:38,244 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550864.3050000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:38,245 - controllers.device_controller - DEBUG - [Keithley] Current: 550.864 mA (Measurement time: 0.022s)
+2025-06-27 12:10:38,325 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:38,348 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551559.2050000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:38,348 - controllers.device_controller - DEBUG - [Keithley] Current: 551.559 mA (Measurement time: 0.022s)
+2025-06-27 12:10:38,422 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1387833988567806], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:38,465 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551424.2339999999 µA (Measurement time: 0.043s)
+2025-06-27 12:10:38,466 - controllers.device_controller - DEBUG - [Keithley] Current: 551.424 mA (Measurement time: 0.043s)
+2025-06-27 12:10:38,543 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.1795374727118002], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:38,566 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551507.5340000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:38,566 - controllers.device_controller - DEBUG - [Keithley] Current: 551.508 mA (Measurement time: 0.022s)
+2025-06-27 12:10:38,642 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1693489542480506], Mean: 1.1592 V, Scaled: 69.55 V
+2025-06-27 12:10:38,665 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551710.9449999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:38,665 - controllers.device_controller - DEBUG - [Keithley] Current: 551.711 mA (Measurement time: 0.022s)
+2025-06-27 12:10:38,742 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.2101030281030702], Mean: 1.2050 V, Scaled: 72.30 V
+2025-06-27 12:10:38,764 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551213.1880000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:38,765 - controllers.device_controller - DEBUG - [Keithley] Current: 551.213 mA (Measurement time: 0.021s)
+2025-06-27 12:10:38,840 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:38,862 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552080.9560000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:38,863 - controllers.device_controller - DEBUG - [Keithley] Current: 552.081 mA (Measurement time: 0.021s)
+2025-06-27 12:10:38,939 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:38,983 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551535.6190000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:38,983 - controllers.device_controller - DEBUG - [Keithley] Current: 551.536 mA (Measurement time: 0.043s)
+2025-06-27 12:10:39,056 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.2101030281030702], Mean: 1.2101 V, Scaled: 72.61 V
+2025-06-27 12:10:39,079 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551402.3160000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,079 - controllers.device_controller - DEBUG - [Keithley] Current: 551.402 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,158 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.1693489542480506], Mean: 1.1846 V, Scaled: 71.08 V
+2025-06-27 12:10:39,181 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551280.0249999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,181 - controllers.device_controller - DEBUG - [Keithley] Current: 551.280 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,254 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.2304800650305836], Mean: 1.2203 V, Scaled: 73.22 V
+2025-06-27 12:10:39,277 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551230.3990000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,277 - controllers.device_controller - DEBUG - [Keithley] Current: 551.230 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,354 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1999145096393136], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:39,376 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551849.9040000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,377 - controllers.device_controller - DEBUG - [Keithley] Current: 551.850 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,452 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1795374727118002], Mean: 1.1693 V, Scaled: 70.16 V
+2025-06-27 12:10:39,496 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551300.3410000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:39,496 - controllers.device_controller - DEBUG - [Keithley] Current: 551.300 mA (Measurement time: 0.043s)
+2025-06-27 12:10:39,575 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.2304800650305836], Mean: 1.2152 V, Scaled: 72.91 V
+2025-06-27 12:10:39,597 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551076.0719999999 µA (Measurement time: 0.021s)
+2025-06-27 12:10:39,598 - controllers.device_controller - DEBUG - [Keithley] Current: 551.076 mA (Measurement time: 0.021s)
+2025-06-27 12:10:39,672 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.250857101958097, 1.250857101958097], Mean: 1.2509 V, Scaled: 75.05 V
+2025-06-27 12:10:39,694 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551197.8180000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,694 - controllers.device_controller - DEBUG - [Keithley] Current: 551.198 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,775 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2610456204218536, 1.281422657349367], Mean: 1.2712 V, Scaled: 76.27 V
+2025-06-27 12:10:39,797 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 530947.4270000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:39,799 - controllers.device_controller - DEBUG - [Keithley] Current: 530.947 mA (Measurement time: 0.022s)
+2025-06-27 12:10:39,874 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.220291546566827], Mean: 1.2101 V, Scaled: 72.61 V
+2025-06-27 12:10:39,897 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 554468.0650000001 µA (Measurement time: 0.021s)
+2025-06-27 12:10:39,897 - controllers.device_controller - DEBUG - [Keithley] Current: 554.468 mA (Measurement time: 0.021s)
+2025-06-27 12:10:39,975 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1795374727118002], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:40,019 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551664.2170000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:40,020 - controllers.device_controller - DEBUG - [Keithley] Current: 551.664 mA (Measurement time: 0.043s)
+2025-06-27 12:10:40,093 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.1693489542480506], Mean: 1.1693 V, Scaled: 70.16 V
+2025-06-27 12:10:40,115 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552281.6740000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:40,116 - controllers.device_controller - DEBUG - [Keithley] Current: 552.282 mA (Measurement time: 0.022s)
+2025-06-27 12:10:40,196 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1387833988567806], Mean: 1.1337 V, Scaled: 68.02 V
+2025-06-27 12:10:40,218 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551786.1000000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:40,219 - controllers.device_controller - DEBUG - [Keithley] Current: 551.786 mA (Measurement time: 0.021s)
+2025-06-27 12:10:40,296 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:40,318 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551243.8990000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:40,318 - controllers.device_controller - DEBUG - [Keithley] Current: 551.244 mA (Measurement time: 0.022s)
+2025-06-27 12:10:40,394 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1693489542480506], Mean: 1.1643 V, Scaled: 69.86 V
+2025-06-27 12:10:40,417 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551973.4260000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:40,418 - controllers.device_controller - DEBUG - [Keithley] Current: 551.973 mA (Measurement time: 0.021s)
+2025-06-27 12:10:40,492 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.1387833988567806], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:40,535 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551096.3880000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:40,535 - controllers.device_controller - DEBUG - [Keithley] Current: 551.096 mA (Measurement time: 0.043s)
+2025-06-27 12:10:40,614 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1082178434655106, 1.1387833988567806], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:40,637 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551562.5150000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:40,637 - controllers.device_controller - DEBUG - [Keithley] Current: 551.563 mA (Measurement time: 0.021s)
+2025-06-27 12:10:40,715 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1693489542480506, 1.128594880393024], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:40,737 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551766.6070000001 µA (Measurement time: 0.021s)
+2025-06-27 12:10:40,738 - controllers.device_controller - DEBUG - [Keithley] Current: 551.767 mA (Measurement time: 0.021s)
+2025-06-27 12:10:40,819 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1693489542480506], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:40,842 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551225.2239999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:40,842 - controllers.device_controller - DEBUG - [Keithley] Current: 551.225 mA (Measurement time: 0.022s)
+2025-06-27 12:10:40,916 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.159160435784294, 1.159160435784294], Mean: 1.1592 V, Scaled: 69.55 V
+2025-06-27 12:10:40,939 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551745.0660000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:40,939 - controllers.device_controller - DEBUG - [Keithley] Current: 551.745 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,019 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.128594880393024, 1.1184063619292672], Mean: 1.1235 V, Scaled: 67.41 V
+2025-06-27 12:10:41,062 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551447.8580000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:41,063 - controllers.device_controller - DEBUG - [Keithley] Current: 551.448 mA (Measurement time: 0.043s)
+2025-06-27 12:10:41,138 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1693489542480506], Mean: 1.1744 V, Scaled: 70.47 V
+2025-06-27 12:10:41,162 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551281.2570000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,162 - controllers.device_controller - DEBUG - [Keithley] Current: 551.281 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,245 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1184063619292672, 1.1693489542480506], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:41,267 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551175.8709999999 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,267 - controllers.device_controller - DEBUG - [Keithley] Current: 551.176 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,341 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1795374727118002], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:41,364 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551144.6510000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,364 - controllers.device_controller - DEBUG - [Keithley] Current: 551.145 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,442 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1387833988567806], Mean: 1.1439 V, Scaled: 68.63 V
+2025-06-27 12:10:41,464 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 549332.2240000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,464 - controllers.device_controller - DEBUG - [Keithley] Current: 549.332 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,539 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:41,582 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551411.7290000001 µA (Measurement time: 0.043s)
+2025-06-27 12:10:41,583 - controllers.device_controller - DEBUG - [Keithley] Current: 551.412 mA (Measurement time: 0.043s)
+2025-06-27 12:10:41,667 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.1489719173205373], Mean: 1.1744 V, Scaled: 70.47 V
+2025-06-27 12:10:41,690 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551369.0570000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,691 - controllers.device_controller - DEBUG - [Keithley] Current: 551.369 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,766 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1795374727118002, 1.1795374727118002], Mean: 1.1795 V, Scaled: 70.77 V
+2025-06-27 12:10:41,791 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551928.7080000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,791 - controllers.device_controller - DEBUG - [Keithley] Current: 551.929 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,867 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:41,890 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551154.7390000001 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,891 - controllers.device_controller - DEBUG - [Keithley] Current: 551.155 mA (Measurement time: 0.022s)
+2025-06-27 12:10:41,967 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1897259911755569, 1.1999145096393136], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:41,991 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551137.5610000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:41,992 - controllers.device_controller - DEBUG - [Keithley] Current: 551.138 mA (Measurement time: 0.022s)
+2025-06-27 12:10:42,072 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1999145096393136, 1.2101030281030702], Mean: 1.2050 V, Scaled: 72.30 V
+2025-06-27 12:10:42,115 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551249.8999999999 µA (Measurement time: 0.043s)
+2025-06-27 12:10:42,115 - controllers.device_controller - DEBUG - [Keithley] Current: 551.250 mA (Measurement time: 0.043s)
+2025-06-27 12:10:42,192 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.1489719173205373], Mean: 1.1490 V, Scaled: 68.94 V
+2025-06-27 12:10:42,215 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551258.7620000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:42,215 - controllers.device_controller - DEBUG - [Keithley] Current: 551.259 mA (Measurement time: 0.022s)
+2025-06-27 12:10:42,294 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.220291546566827, 1.1693489542480506], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:42,317 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 550764.5510000000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:42,317 - controllers.device_controller - DEBUG - [Keithley] Current: 550.765 mA (Measurement time: 0.021s)
+2025-06-27 12:10:42,392 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.220291546566827, 1.1693489542480506], Mean: 1.1948 V, Scaled: 71.69 V
+2025-06-27 12:10:42,414 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551873.9060000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:42,414 - controllers.device_controller - DEBUG - [Keithley] Current: 551.874 mA (Measurement time: 0.022s)
+2025-06-27 12:10:42,492 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.2101030281030702, 1.159160435784294], Mean: 1.1846 V, Scaled: 71.08 V
+2025-06-27 12:10:42,515 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 552373.4340000000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:42,515 - controllers.device_controller - DEBUG - [Keithley] Current: 552.373 mA (Measurement time: 0.022s)
+2025-06-27 12:10:42,528 - controllers.device_controller - DEBUG - [DAQ] Raw: [1.1489719173205373, 1.159160435784294], Mean: 1.1541 V, Scaled: 69.24 V
+2025-06-27 12:10:42,572 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 551291.3500000000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:42,573 - controllers.device_controller - DEBUG - [Keithley] Current: 551.291 mA (Measurement time: 0.043s)
+2025-06-27 12:10:42,573 - controllers.device_controller - INFO - Set voltage limit to 0.0V, current limit to 0.0mA (not applied yet)
+2025-06-27 12:10:42,574 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 12:10:42,574 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 12:10:42,574 - controllers.device_controller - INFO - Applied voltage limit: 0.0V, current limit: 0.0mA
+2025-06-27 12:10:42,574 - controllers.device_controller - INFO - Applied current limit to Keithley: 0.0mA (0.0A)
+2025-06-27 12:10:42,575 - controllers.device_controller - INFO - Reset CV/CC tracking - starting in CV mode
+2025-06-27 12:10:42,600 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.018046367843616906], Mean: 0.0180 V, Scaled: 1.08 V
+2025-06-27 12:10:42,601 - controllers.daq_keithley_controller - WARNING - Keithley error detected: -102,"Syntax error"
+2025-06-27 12:10:42,744 - controllers.device_controller - WARNING - Keithley status check failed, attempting to reconfigure
+2025-06-27 12:10:43,378 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: 0.1111380330 µA (Measurement time: 0.321s)
+2025-06-27 12:10:43,378 - controllers.device_controller - DEBUG - [Keithley] Current: 0.000 mA (Measurement time: 0.321s)
+2025-06-27 12:10:43,448 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.007857849379860227], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:43,475 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.7595796500 µA (Measurement time: 0.025s)
+2025-06-27 12:10:43,475 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.025s)
+2025-06-27 12:10:43,544 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:43,567 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3955842000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:43,567 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:43,668 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:43,694 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.3505785100 µA (Measurement time: 0.023s)
+2025-06-27 12:10:43,694 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.023s)
+2025-06-27 12:10:43,767 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:43,811 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -2.2155613500 µA (Measurement time: 0.043s)
+2025-06-27 12:10:43,811 - controllers.device_controller - DEBUG - [Keithley] Current: -0.002 mA (Measurement time: 0.043s)
+2025-06-27 12:10:43,904 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:43,927 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -3.3062310600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:43,927 - controllers.device_controller - DEBUG - [Keithley] Current: -0.003 mA (Measurement time: 0.022s)
+2025-06-27 12:10:43,998 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.007857849379860227], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:44,020 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.0329053600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:44,021 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.022s)
+2025-06-27 12:10:44,122 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:44,144 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -4.1242333500 µA (Measurement time: 0.021s)
+2025-06-27 12:10:44,145 - controllers.device_controller - DEBUG - [Keithley] Current: -0.004 mA (Measurement time: 0.021s)
+2025-06-27 12:10:44,219 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:44,242 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.3962425000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:44,242 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:44,328 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:44,372 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.8959136000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:44,372 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.043s)
+2025-06-27 12:10:44,438 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:44,461 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.3042565000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:44,461 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:44,545 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:44,568 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.8495914000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:44,568 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.021s)
+2025-06-27 12:10:44,639 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.007857849379860227], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:44,662 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.8952554000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:44,662 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:44,767 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:44,791 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869124500 µA (Measurement time: 0.023s)
+2025-06-27 12:10:44,791 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.023s)
+2025-06-27 12:10:44,859 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.018046367843616906], Mean: 0.0180 V, Scaled: 1.08 V
+2025-06-27 12:10:44,904 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869124500 µA (Measurement time: 0.043s)
+2025-06-27 12:10:44,904 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.043s)
+2025-06-27 12:10:44,998 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,021 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.8952554000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,021 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,091 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,113 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3955845000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,113 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,198 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:45,221 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.0322473200 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,221 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,291 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,314 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.9865833300 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,314 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,404 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,448 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.6675938000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:45,448 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.043s)
+2025-06-27 12:10:45,527 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,549 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.0765949000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,550 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,640 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,663 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.6225880000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,663 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,730 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:45,752 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.9402612000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,753 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,854 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:45,877 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.3499206000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:45,877 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:45,947 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:45,991 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -15.0309310000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:45,991 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.043s)
+2025-06-27 12:10:46,088 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,111 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.7132578000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:46,111 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.022s)
+2025-06-27 12:10:46,194 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,217 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.9872416500 µA (Measurement time: 0.021s)
+2025-06-27 12:10:46,217 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.021s)
+2025-06-27 12:10:46,299 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,322 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.8945972000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:46,322 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.022s)
+2025-06-27 12:10:46,404 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,427 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.7139161400 µA (Measurement time: 0.021s)
+2025-06-27 12:10:46,428 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.021s)
+2025-06-27 12:10:46,519 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, -0.0023306690838929], Mean: -0.0023 V, Scaled: -0.14 V
+2025-06-27 12:10:46,563 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869126800 µA (Measurement time: 0.043s)
+2025-06-27 12:10:46,563 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.043s)
+2025-06-27 12:10:46,630 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,653 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -17.2122706000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:46,653 - controllers.device_controller - DEBUG - [Keithley] Current: -0.017 mA (Measurement time: 0.022s)
+2025-06-27 12:10:46,737 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:46,760 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -15.1672649000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:46,760 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.021s)
+2025-06-27 12:10:46,833 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:46,856 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.2135870000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:46,856 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:46,961 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:46,986 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.9865835800 µA (Measurement time: 0.023s)
+2025-06-27 12:10:46,986 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.023s)
+2025-06-27 12:10:47,051 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,095 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -16.6669358000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:47,095 - controllers.device_controller - DEBUG - [Keithley] Current: -0.017 mA (Measurement time: 0.043s)
+2025-06-27 12:10:47,193 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,215 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -4.1242337000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,216 - controllers.device_controller - DEBUG - [Keithley] Current: -0.004 mA (Measurement time: 0.022s)
+2025-06-27 12:10:47,287 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,310 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.6219300000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,311 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.022s)
+2025-06-27 12:10:47,411 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:47,433 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.2129288000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:47,434 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.021s)
+2025-06-27 12:10:47,497 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,519 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.7139160900 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,520 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:47,621 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:47,665 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -15.0309311000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:47,665 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.043s)
+2025-06-27 12:10:47,740 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,763 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.8945974000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,763 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.022s)
+2025-06-27 12:10:47,857 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:47,880 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.9409196000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,880 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:47,954 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:47,977 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -20.4842798000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:47,977 - controllers.device_controller - DEBUG - [Keithley] Current: -0.020 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,076 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:48,098 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -17.0759369000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:48,098 - controllers.device_controller - DEBUG - [Keithley] Current: -0.017 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,174 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:48,218 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -15.0309311000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:48,219 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.043s)
+2025-06-27 12:10:48,315 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:48,338 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.8045914000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:48,338 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,415 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:48,438 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.5775876300 µA (Measurement time: 0.022s)
+2025-06-27 12:10:48,438 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,534 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, -0.0023306690838929], Mean: -0.0023 V, Scaled: -0.14 V
+2025-06-27 12:10:48,557 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.0322526100 µA (Measurement time: 0.022s)
+2025-06-27 12:10:48,557 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,630 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:48,653 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869175800 µA (Measurement time: 0.021s)
+2025-06-27 12:10:48,653 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.021s)
+2025-06-27 12:10:48,748 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.018046367843616906], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:48,792 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.5319239000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:48,793 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.043s)
+2025-06-27 12:10:48,870 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:48,892 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.8045914000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:48,893 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:48,988 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,010 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.5782450000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:49,011 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:49,086 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,109 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.8952615000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:49,109 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.021s)
+2025-06-27 12:10:49,205 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,227 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.6219366000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:49,228 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.022s)
+2025-06-27 12:10:49,303 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,346 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.1692437700 µA (Measurement time: 0.043s)
+2025-06-27 12:10:49,347 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.043s)
+2025-06-27 12:10:49,445 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:49,467 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.0322526600 µA (Measurement time: 0.021s)
+2025-06-27 12:10:49,468 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.021s)
+2025-06-27 12:10:49,542 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:49,564 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.8952615000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:49,564 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:49,666 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,689 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869176300 µA (Measurement time: 0.022s)
+2025-06-27 12:10:49,689 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:10:49,765 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:49,788 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.5319240000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:49,788 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:49,888 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.01251918754764958], Mean: -0.0023 V, Scaled: -0.14 V
+2025-06-27 12:10:49,933 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.1222654000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:49,934 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.043s)
+2025-06-27 12:10:50,011 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,033 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -15.8489405000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:50,034 - controllers.device_controller - DEBUG - [Keithley] Current: -0.016 mA (Measurement time: 0.021s)
+2025-06-27 12:10:50,138 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:50,162 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.0772590000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:50,162 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.023s)
+2025-06-27 12:10:50,236 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,258 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.0766017000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:50,259 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:50,358 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:50,381 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3955902000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:50,381 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:50,456 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,501 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.4856029000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:50,501 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.043s)
+2025-06-27 12:10:50,602 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.01251918754764958, -0.0023306690838929], Mean: -0.0074 V, Scaled: -0.45 V
+2025-06-27 12:10:50,625 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.0315953000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:50,625 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.021s)
+2025-06-27 12:10:50,706 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,728 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.2592565000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:50,729 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:50,831 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,853 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.8495978000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:50,854 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.021s)
+2025-06-27 12:10:50,928 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.018046367843616906], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:50,951 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.4856029000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:50,951 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:51,053 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,098 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3955902000 µA (Measurement time: 0.044s)
+2025-06-27 12:10:51,099 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.044s)
+2025-06-27 12:10:51,174 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,197 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.8039341000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:51,197 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:51,300 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,324 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.4405965000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:51,324 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.023s)
+2025-06-27 12:10:51,399 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,422 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4869175800 µA (Measurement time: 0.022s)
+2025-06-27 12:10:51,422 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:10:51,525 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,547 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.4862602000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:51,547 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.021s)
+2025-06-27 12:10:51,622 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.018046367843616906], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:51,665 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.0766016000 µA (Measurement time: 0.042s)
+2025-06-27 12:10:51,666 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.042s)
+2025-06-27 12:10:51,771 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,795 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.0322526100 µA (Measurement time: 0.023s)
+2025-06-27 12:10:51,795 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.023s)
+2025-06-27 12:10:51,871 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:51,893 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.3042628000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:51,894 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:51,999 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,023 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.2129353000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:52,023 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.023s)
+2025-06-27 12:10:52,096 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,118 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.2135927000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:52,119 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:52,226 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,271 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -18.3029480000 µA (Measurement time: 0.044s)
+2025-06-27 12:10:52,271 - controllers.device_controller - DEBUG - [Keithley] Current: -0.018 mA (Measurement time: 0.044s)
+2025-06-27 12:10:52,344 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,367 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.5312669000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:52,367 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:52,475 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,499 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.4405968000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:52,499 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.023s)
+2025-06-27 12:10:52,575 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,598 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.1679293000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:52,599 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:52,705 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,729 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.7132643000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:52,730 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.023s)
+2025-06-27 12:10:52,804 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,848 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.9415827800 µA (Measurement time: 0.043s)
+2025-06-27 12:10:52,848 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.043s)
+2025-06-27 12:10:52,958 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:52,982 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.2601422900 µA (Measurement time: 0.023s)
+2025-06-27 12:10:52,983 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.023s)
+2025-06-27 12:10:53,059 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,081 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.5771620000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:53,082 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:53,190 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:53,214 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.3951651000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:53,214 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.023s)
+2025-06-27 12:10:53,290 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:53,313 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3501575000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:53,313 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:53,424 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,469 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.2601421700 µA (Measurement time: 0.044s)
+2025-06-27 12:10:53,470 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.044s)
+2025-06-27 12:10:53,545 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,567 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.0324820700 µA (Measurement time: 0.021s)
+2025-06-27 12:10:53,568 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.021s)
+2025-06-27 12:10:53,677 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,701 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.2601421700 µA (Measurement time: 0.023s)
+2025-06-27 12:10:53,701 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.023s)
+2025-06-27 12:10:53,777 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,800 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.1681604000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:53,801 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:53,911 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:53,935 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.2594866100 µA (Measurement time: 0.023s)
+2025-06-27 12:10:53,935 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.023s)
+2025-06-27 12:10:54,010 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, -0.0023306690838929], Mean: -0.0023 V, Scaled: -0.14 V
+2025-06-27 12:10:54,054 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.8948371000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:54,054 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.043s)
+2025-06-27 12:10:54,169 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,193 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.1231527800 µA (Measurement time: 0.023s)
+2025-06-27 12:10:54,193 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.023s)
+2025-06-27 12:10:54,270 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,292 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.9861634000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:54,293 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:54,406 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,431 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.5314987000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:54,431 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.023s)
+2025-06-27 12:10:54,507 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,530 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.4871467100 µA (Measurement time: 0.022s)
+2025-06-27 12:10:54,530 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:54,644 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,689 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.7591588000 µA (Measurement time: 0.044s)
+2025-06-27 12:10:54,689 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.044s)
+2025-06-27 12:10:54,764 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:54,787 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3501573000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:54,787 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:54,902 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:54,926 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -3.5334654000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:54,926 - controllers.device_controller - DEBUG - [Keithley] Current: -0.004 mA (Measurement time: 0.023s)
+2025-06-27 12:10:55,000 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,023 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.9861634000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:55,023 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:55,138 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,163 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -5.8511406500 µA (Measurement time: 0.023s)
+2025-06-27 12:10:55,164 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.023s)
+2025-06-27 12:10:55,238 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,282 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.6228250000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:55,283 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.043s)
+2025-06-27 12:10:55,404 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,428 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.1231528200 µA (Measurement time: 0.023s)
+2025-06-27 12:10:55,429 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.023s)
+2025-06-27 12:10:55,503 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,525 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.8054775600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:55,526 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:55,642 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,666 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.8054775600 µA (Measurement time: 0.023s)
+2025-06-27 12:10:55,667 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.023s)
+2025-06-27 12:10:55,743 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.028234886307373586, 0.018046367843616906], Mean: 0.0231 V, Scaled: 1.39 V
+2025-06-27 12:10:55,765 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.1231528200 µA (Measurement time: 0.022s)
+2025-06-27 12:10:55,766 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:55,880 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:55,925 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -13.3495018000 µA (Measurement time: 0.044s)
+2025-06-27 12:10:55,926 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.044s)
+2025-06-27 12:10:55,988 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,011 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.5778174700 µA (Measurement time: 0.022s)
+2025-06-27 12:10:56,011 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:56,134 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,158 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.0324821100 µA (Measurement time: 0.023s)
+2025-06-27 12:10:56,158 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.023s)
+2025-06-27 12:10:56,236 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,258 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.9855079000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:56,258 - controllers.device_controller - DEBUG - [Keithley] Current: -0.015 mA (Measurement time: 0.021s)
+2025-06-27 12:10:56,378 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,402 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.5321543400 µA (Measurement time: 0.023s)
+2025-06-27 12:10:56,402 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.023s)
+2025-06-27 12:10:56,477 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,521 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.5314988000 µA (Measurement time: 0.043s)
+2025-06-27 12:10:56,521 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.043s)
+2025-06-27 12:10:56,646 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,669 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.4408281000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:56,669 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:56,745 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,768 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.1688159500 µA (Measurement time: 0.022s)
+2025-06-27 12:10:56,768 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:10:56,889 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:56,913 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.6234805900 µA (Measurement time: 0.023s)
+2025-06-27 12:10:56,913 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.023s)
+2025-06-27 12:10:56,989 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.018046367843616906], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:10:57,012 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.8504851400 µA (Measurement time: 0.022s)
+2025-06-27 12:10:57,014 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:57,139 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:57,162 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4528453800 µA (Measurement time: 0.022s)
+2025-06-27 12:10:57,162 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:10:57,240 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:57,262 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.8168392600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:57,263 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:57,388 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:57,411 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.9981807600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:57,411 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:57,489 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:57,511 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.7248576000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:57,511 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.021s)
+2025-06-27 12:10:57,635 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:57,659 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.1345146000 µA (Measurement time: 0.023s)
+2025-06-27 12:10:57,659 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.023s)
+2025-06-27 12:10:57,736 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:57,759 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -11.1795223000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:57,760 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:10:57,883 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:57,928 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.4065268000 µA (Measurement time: 0.044s)
+2025-06-27 12:10:57,928 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.044s)
+2025-06-27 12:10:58,005 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:58,028 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.4985084800 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,028 - controllers.device_controller - DEBUG - [Keithley] Current: -0.007 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,155 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:58,178 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.8618469100 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,178 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,255 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:58,278 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -14.0425330000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,278 - controllers.device_controller - DEBUG - [Keithley] Current: -0.014 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,408 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:58,430 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.7711761200 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,431 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,509 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:58,533 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.2701929000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,533 - controllers.device_controller - DEBUG - [Keithley] Current: -0.012 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,665 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:58,687 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.0888515000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:58,688 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.021s)
+2025-06-27 12:10:58,771 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:58,793 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -4.6354977300 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,794 - controllers.device_controller - DEBUG - [Keithley] Current: -0.005 mA (Measurement time: 0.022s)
+2025-06-27 12:10:58,922 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:58,945 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -3.1358254500 µA (Measurement time: 0.022s)
+2025-06-27 12:10:58,946 - controllers.device_controller - DEBUG - [Keithley] Current: -0.003 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,022 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:59,045 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -5.3171669400 µA (Measurement time: 0.022s)
+2025-06-27 12:10:59,046 - controllers.device_controller - DEBUG - [Keithley] Current: -0.005 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,168 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:59,192 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -2.0451547100 µA (Measurement time: 0.023s)
+2025-06-27 12:10:59,192 - controllers.device_controller - DEBUG - [Keithley] Current: -0.002 mA (Measurement time: 0.023s)
+2025-06-27 12:10:59,268 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:59,291 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.3615191000 µA (Measurement time: 0.022s)
+2025-06-27 12:10:59,291 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,419 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:59,442 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -5.7261684700 µA (Measurement time: 0.022s)
+2025-06-27 12:10:59,442 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,514 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, -0.0023306690838929], Mean: -0.0023 V, Scaled: -0.14 V
+2025-06-27 12:10:59,537 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -4.9081654100 µA (Measurement time: 0.022s)
+2025-06-27 12:10:59,537 - controllers.device_controller - DEBUG - [Keithley] Current: -0.005 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,665 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, -0.0023306690838929], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:59,688 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.0956665000 µA (Measurement time: 0.021s)
+2025-06-27 12:10:59,689 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.021s)
+2025-06-27 12:10:59,761 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:10:59,786 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.5959943600 µA (Measurement time: 0.022s)
+2025-06-27 12:10:59,786 - controllers.device_controller - DEBUG - [Keithley] Current: -0.009 mA (Measurement time: 0.022s)
+2025-06-27 12:10:59,921 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:10:59,944 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.0506590300 µA (Measurement time: 0.021s)
+2025-06-27 12:10:59,945 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.021s)
+2025-06-27 12:11:00,031 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.018046367843616906, 0.007857849379860227], Mean: 0.0130 V, Scaled: 0.78 V
+2025-06-27 12:11:00,054 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.0956665000 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,055 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,183 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,205 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -7.9143252000 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,206 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,280 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,302 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.9136695000 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,302 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,431 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,453 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -6.1419853500 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,454 - controllers.device_controller - DEBUG - [Keithley] Current: -0.006 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,525 - controllers.device_controller - DEBUG - [DAQ] Raw: [-0.0023306690838929, 0.007857849379860227], Mean: 0.0028 V, Scaled: 0.17 V
+2025-06-27 12:11:00,547 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -10.6410018000 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,548 - controllers.device_controller - DEBUG - [Keithley] Current: -0.011 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,675 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,698 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -8.4596604800 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,698 - controllers.device_controller - DEBUG - [Keithley] Current: -0.008 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,773 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,795 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -9.8229987900 µA (Measurement time: 0.021s)
+2025-06-27 12:11:00,795 - controllers.device_controller - DEBUG - [Keithley] Current: -0.010 mA (Measurement time: 0.021s)
+2025-06-27 12:11:00,923 - controllers.device_controller - DEBUG - [DAQ] Raw: [0.007857849379860227, 0.007857849379860227], Mean: 0.0079 V, Scaled: 0.47 V
+2025-06-27 12:11:00,945 - controllers.daq_keithley_controller - DEBUG - Keithley current reading: -12.8223431000 µA (Measurement time: 0.022s)
+2025-06-27 12:11:00,946 - controllers.device_controller - DEBUG - [Keithley] Current: -0.013 mA (Measurement time: 0.022s)
+2025-06-27 12:11:00,982 - controllers.device_controller - INFO - Stopping process
+2025-06-27 12:11:00,984 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 12:11:00,984 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 12:11:00,984 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-27 12:11:00,984 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-27 12:11:32,905 - controllers.device_controller - INFO - Stopping process
+2025-06-27 12:11:32,908 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 12:11:32,908 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 12:11:32,908 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-27 12:11:32,909 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-27 12:11:32,911 - controllers.device_controller - INFO - Device connections closed

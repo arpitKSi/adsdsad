@@ -1,0 +1,8 @@
+2025-06-29 19:31:19,329 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-29 19:31:19,667 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-29 19:31:19,701 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-29 19:31:19,826 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-29 19:31:19,828 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-29 19:31:19,830 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-29 19:31:19,836 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+

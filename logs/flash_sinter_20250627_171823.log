@@ -1,0 +1,21 @@
+2025-06-27 17:18:23,155 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-27 17:18:23,496 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-27 17:18:23,519 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-27 17:18:23,596 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-27 17:18:23,598 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-27 17:18:23,601 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-27 17:18:23,607 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+
+2025-06-27 17:18:23,753 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-27 17:18:25,755 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-27 17:18:25,756 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-27 17:18:25,756 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-27 17:18:25,757 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-27 17:19:23,198 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-27 17:19:23,220 - controllers.device_controller - INFO - Stopping process
+2025-06-27 17:19:23,222 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 17:19:23,222 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 17:19:23,222 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:19:23,223 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:19:23,225 - controllers.device_controller - INFO - Device connections closed
+2025-06-27 17:19:23,264 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

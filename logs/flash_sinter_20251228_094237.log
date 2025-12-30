@@ -1,0 +1,55 @@
+2025-12-28 09:42:37,541 - controllers.daq_keithley_controller - ERROR - Error initializing DAQ: Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.
+
+Device Specified: Dev1
+
+Task Name: _unnamedTask<0>
+
+Status Code: -201003
+2025-12-28 09:42:37,874 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-12-28 09:42:37,898 - controllers.device_controller - ERROR - DAQ: Device Dev1 not found
+2025-12-28 09:42:37,978 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-12-28 09:42:37,979 - controllers.device_controller - ERROR - DAQ not available - cannot initialize
+2025-12-28 09:42:38,111 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-12-28 09:42:43,296 - gui.flash_sinter_gui - ERROR - Could not open COM port: could not open port 'COM12': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2025-12-28 09:42:43,297 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-12-28 09:42:43,298 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-12-28 09:42:43,298 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-12-28 09:42:57,532 - gui.flash_sinter_gui - ERROR - Serial not connected
+2025-12-28 09:42:57,532 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-12-28 09:43:00,293 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-12-28 09:43:00,294 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-12-28 09:43:00,294 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-12-28 09:43:00,908 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-12-28 09:43:00,908 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-12-28 09:43:02,339 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-12-28 09:43:02,339 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-12-28 09:43:04,108 - gui.flash_sinter_gui - INFO - Arduino response: Limit switch hit! Motor stopped for 30 seconds.
+2025-12-28 09:43:04,108 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-12-28 09:43:12,024 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:12,024 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-12-28 09:43:24,681 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:24,681 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-12-28 09:43:25,576 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:25,576 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-12-28 09:43:35,337 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:35,337 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-12-28 09:43:37,497 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:37,497 - gui.flash_sinter_gui - INFO - Unloading (reverse) command sent
+2025-12-28 09:43:38,712 - gui.flash_sinter_gui - INFO - Arduino response: Limit cooldown complete. Ready for new command.
+2025-12-28 09:43:38,712 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-12-28 09:43:41,100 - gui.flash_sinter_gui - INFO - Arduino response: Limit switch hit! Motor stopped for 30 seconds.
+2025-12-28 09:43:41,101 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-12-28 09:43:43,599 - gui.flash_sinter_gui - INFO - Arduino response: Motor paused due to limit switch. Wait 30 seconds.
+2025-12-28 09:43:43,620 - controllers.device_controller - INFO - Stopping process
+2025-12-28 09:43:43,620 - controllers.device_controller - ERROR - Error setting outputs: DAQ not available - cannot set outputs
+2025-12-28 09:43:43,620 - controllers.device_controller - ERROR - Error stopping process: DAQ not available - cannot set outputs
+2025-12-28 09:43:43,621 - controllers.device_controller - INFO - Device connections closed
+2025-12-28 09:43:43,663 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

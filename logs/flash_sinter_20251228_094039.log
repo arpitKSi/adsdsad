@@ -1,0 +1,24 @@
+2025-12-28 09:40:40,141 - controllers.daq_keithley_controller - ERROR - Error initializing DAQ: Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.
+
+Device Specified: Dev1
+
+Task Name: _unnamedTask<0>
+
+Status Code: -201003
+2025-12-28 09:40:41,099 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-12-28 09:40:41,193 - controllers.device_controller - ERROR - DAQ: Device Dev1 not found
+2025-12-28 09:40:41,409 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-12-28 09:40:41,410 - controllers.device_controller - ERROR - DAQ not available - cannot initialize
+2025-12-28 09:40:46,757 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-12-28 09:40:52,233 - controllers.device_controller - INFO - Stopping process
+2025-12-28 09:40:52,234 - controllers.device_controller - ERROR - Error setting outputs: DAQ not available - cannot set outputs
+2025-12-28 09:40:52,234 - controllers.device_controller - ERROR - Error stopping process: DAQ not available - cannot set outputs
+2025-12-28 09:40:52,234 - controllers.device_controller - INFO - Device connections closed

@@ -1,0 +1,12 @@
+2025-12-27 19:31:16,743 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-12-27 19:31:16,767 - controllers.daq_keithley_controller - ERROR - Error initializing Keithley: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient location information or the requested device or resource is not present in the system.
+2025-12-27 19:31:16,788 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-12-27 19:31:16,905 - controllers.device_controller - ERROR - Keithley: Device USB0::0x05E6::0x6500::04645387::INSTR not found. Available devices: (ASRL5::INSTR, ASRL6::INSTR, ASRL7::INSTR, ASRL8::INSTR, ASRL9::INSTR, ASRL10::INSTR, ASRL12::INSTR, ASRL13::INSTR, ASRL14::INSTR, ASRL15::INSTR, ASRL16::INSTR)
+2025-12-27 19:31:16,910 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-12-27 19:31:16,914 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-12-27 19:31:16,914 - controllers.device_controller - ERROR - Keithley not available - cannot initialize
+2025-12-27 19:31:17,067 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-12-27 19:31:22,253 - gui.flash_sinter_gui - ERROR - Could not open COM port: could not open port 'COM12': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2025-12-27 19:31:22,255 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-12-27 19:31:22,255 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-12-27 19:31:22,256 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA

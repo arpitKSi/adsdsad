@@ -1,0 +1,70 @@
+2025-06-27 17:19:28,451 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-27 17:19:28,793 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-27 17:19:28,811 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-27 17:19:28,880 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-27 17:19:28,882 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-27 17:19:28,885 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-27 17:19:28,891 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+
+2025-06-27 17:19:29,034 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-27 17:19:31,036 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-27 17:19:31,037 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-27 17:19:31,038 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-27 17:19:31,038 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-27 17:19:35,214 - gui.flash_sinter_gui - INFO - Camera properties: FPS=30.00003000003, Resolution=640x480
+2025-06-27 17:19:35,329 - gui.flash_sinter_gui - INFO - Camera initialized successfully with FPS: 30.00003000003, Resolution: 640.0x480.0
+2025-06-27 17:19:35,329 - gui.flash_sinter_gui - INFO - Camera loaded successfully - button changed to red
+2025-06-27 17:33:45,827 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-27 17:33:45,827 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:33:47,154 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:33:47,155 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:33:54,269 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:33:54,270 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:34:14,258 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:34:14,258 - gui.flash_sinter_gui - INFO - Unloading (reverse) command sent
+2025-06-27 17:34:16,262 - gui.flash_sinter_gui - INFO - Arduino response: Moving in reverse
+2025-06-27 17:34:16,262 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:34:22,833 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:34:22,834 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:34:29,078 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:34:29,079 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:34:32,943 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:34:32,943 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:34:37,622 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:34:37,623 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:35:11,374 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:35:11,374 - gui.flash_sinter_gui - INFO - Unloading (reverse) command sent
+2025-06-27 17:35:12,711 - gui.flash_sinter_gui - INFO - Arduino response: Moving in reverse
+2025-06-27 17:35:12,711 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:35:35,613 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:35:35,614 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:35:40,545 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:35:40,546 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:35:41,890 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:35:41,891 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:35:43,129 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:35:43,130 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:35:54,866 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:35:54,867 - gui.flash_sinter_gui - INFO - Unloading (reverse) command sent
+2025-06-27 17:35:55,772 - gui.flash_sinter_gui - INFO - Arduino response: Moving in reverse
+2025-06-27 17:35:55,772 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:35:56,890 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:35:56,890 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:36:18,884 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:36:18,884 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:36:19,622 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:36:19,622 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:36:20,252 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:36:20,252 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:44:28,577 - gui.flash_sinter_gui - INFO - File selection cancelled by user
+2025-06-27 17:44:28,577 - gui.flash_sinter_gui - INFO - Start button activation cancelled - no file selected
+2025-06-27 17:44:52,749 - gui.flash_sinter_gui - INFO - File selection cancelled by user
+2025-06-27 17:44:52,749 - gui.flash_sinter_gui - INFO - Start button activation cancelled - no file selected
+2025-06-27 17:44:53,894 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:44:53,914 - controllers.device_controller - INFO - Stopping process
+2025-06-27 17:44:53,916 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 17:44:53,917 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 17:44:53,917 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:44:53,917 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:44:53,920 - controllers.device_controller - INFO - Device connections closed
+2025-06-27 17:44:53,983 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

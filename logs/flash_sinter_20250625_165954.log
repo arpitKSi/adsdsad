@@ -1,0 +1,16 @@
+2025-06-25 16:59:54,595 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-25 16:59:56,597 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-25 16:59:56,599 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Flash Time: 60.0s
+2025-06-25 16:59:56,599 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-25 17:00:03,281 - gui.flash_sinter_gui - INFO - Selected file for saving: C:/Users/user/Desktop/DEVA/flash control_sci_25-06-2025_/data/experiment_data_20250625_170001.txt
+2025-06-25 17:00:04,150 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons enabled
+2025-06-25 17:00:04,151 - gui.flash_sinter_gui - INFO - Neumorphic start button activated
+2025-06-25 17:00:04,151 - gui.flash_sinter_gui - INFO - Data will be saved to: C:/Users/user/Desktop/DEVA/flash control_sci_25-06-2025_/data/experiment_data_20250625_170001.txt
+2025-06-25 17:00:04,152 - gui.flash_sinter_gui - INFO - Updated parameters: 0.4, 1.6, 1.0, 30.0, 100.0, Flash Time: 60.0s
+2025-06-25 17:00:04,152 - gui.flash_sinter_gui - INFO - Calculated voltage: 12.00V, current: 160.00mA
+2025-06-25 17:00:06,493 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-25 17:00:06,493 - gui.flash_sinter_gui - INFO - Neumorphic start button deactivated
+2025-06-25 17:00:06,494 - gui.flash_sinter_gui - INFO - Updated parameters: 0.4, 1.6, 1.0, 30.0, 100.0, Flash Time: 60.0s
+2025-06-25 17:00:06,495 - gui.flash_sinter_gui - INFO - Calculated voltage: 12.00V, current: 160.00mA
+2025-06-25 17:00:14,322 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-25 17:00:14,405 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

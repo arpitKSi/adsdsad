@@ -1,0 +1,29 @@
+2025-12-27 19:51:10,428 - controllers.daq_keithley_controller - ERROR - Error initializing DAQ: Device cannot be accessed. Possible causes:
+
+Device is no longer present in the system.
+Device is not powered.
+Device is powered, but was temporarily without power.
+Device and/or chassis driver support may have been removed.
+Device is damaged.
+
+Ensure the device is properly connected and turned on. Ensure the device and/or chassis is supported in the current version of the driver. Check the device's status in NI MAX. Turn the computer off and on again. If you suspect that the device is damaged, contact National Instruments at ni.com/support.
+
+Device Specified: Dev1
+
+Task Name: _unnamedTask<0>
+
+Status Code: -201003
+2025-12-27 19:51:10,448 - controllers.daq_keithley_controller - ERROR - Error initializing Keithley: VI_ERROR_RSRC_NFOUND (-1073807343): Insufficient location information or the requested device or resource is not present in the system.
+2025-12-27 19:51:10,471 - controllers.device_controller - ERROR - DAQ: Device Dev1 not found
+2025-12-27 19:51:10,582 - controllers.device_controller - ERROR - Keithley: Device USB0::0x05E6::0x6500::04645387::INSTR not found. Available devices: (ASRL5::INSTR, ASRL6::INSTR, ASRL7::INSTR, ASRL8::INSTR, ASRL10::INSTR, ASRL12::INSTR, ASRL13::INSTR, ASRL14::INSTR, ASRL15::INSTR, ASRL16::INSTR)
+2025-12-27 19:51:10,582 - controllers.device_controller - ERROR - DAQ not available - cannot initialize
+2025-12-27 19:51:10,736 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-12-27 19:51:15,921 - gui.flash_sinter_gui - ERROR - Could not open COM port: could not open port 'COM12': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2025-12-27 19:51:15,922 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-12-27 19:51:15,922 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-12-27 19:51:15,923 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-12-27 19:51:23,391 - controllers.device_controller - INFO - Stopping process
+2025-12-27 19:51:23,392 - controllers.device_controller - ERROR - Error setting outputs: DAQ not available - cannot set outputs
+2025-12-27 19:51:23,392 - controllers.device_controller - ERROR - Error stopping process: DAQ not available - cannot set outputs
+2025-12-27 19:51:23,392 - controllers.device_controller - INFO - Device connections closed
+2025-12-27 19:51:23,447 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

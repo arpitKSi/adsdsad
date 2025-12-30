@@ -1,0 +1,907 @@
+2025-06-29 19:32:25,448 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-29 19:32:27,450 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-29 19:32:27,452 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-29 19:32:27,452 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-29 19:32:32,318 - gui.flash_sinter_gui - INFO - Selected file for saving: C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_193230.txt
+2025-06-29 19:32:33,603 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons enabled
+2025-06-29 19:32:33,604 - gui.flash_sinter_gui - INFO - Neumorphic start button activated
+2025-06-29 19:32:33,604 - gui.flash_sinter_gui - INFO - Data will be saved to: C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_193230.txt
+2025-06-29 19:32:33,605 - gui.flash_sinter_gui - INFO - Updated parameters: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-29 19:32:33,605 - gui.flash_sinter_gui - INFO - Calculated voltage: 12.00V, current: 160.00mA
+2025-06-29 19:32:43,743 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:32:43,743 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:32:43,936 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:32:43,936 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:32:44,263 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:32:44,264 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:32:44,423 - gui.flash_sinter_gui - INFO - Updated parameters: 1.0, 1.6, 1.0, 300.0, 100.0, Hold Time: 15.0s
+2025-06-29 19:32:44,423 - gui.flash_sinter_gui - INFO - Calculated voltage: 300.00V, current: 160.00mA
+2025-06-29 19:32:46,846 - gui.flash_sinter_gui - INFO - Started experiment with V=300.0V, I=160.0mA, Hold Time=15.0s
+2025-06-29 19:32:46,846 - gui.flash_sinter_gui - INFO - Started saving data to C:/Users/user/Desktop/working code - Copy/data/experiment_data_20250629_193230.txt
+2025-06-29 19:32:47,568 - gui.flash_sinter_gui - INFO - Added initial origin point (0,0) for clean graph start
+2025-06-29 19:32:47,568 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,099 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,459 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,603 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,717 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,856 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:48,957 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,051 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,185 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,263 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,391 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,523 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,685 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,814 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:49,924 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,015 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,140 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,271 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,402 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,511 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,632 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,767 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:50,873 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,005 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,162 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,291 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,421 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,507 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,613 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,701 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,788 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:51,916 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,043 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,127 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,258 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,361 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,440 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,564 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,697 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,826 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:52,936 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,056 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,223 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,352 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,450 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,566 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,692 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,814 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:53,894 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,005 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,119 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,251 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,364 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,487 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,608 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,749 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,874 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:54,993 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,103 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,228 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,333 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,413 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,557 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,674 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,784 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:55,883 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,020 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,142 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,229 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,362 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,460 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,584 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,732 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:56,859 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:57,435 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:57,566 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:57,701 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:57,807 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:57,941 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,073 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,183 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,271 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,415 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,519 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,629 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,738 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,876 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:58,981 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,068 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,208 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,342 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,460 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,593 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,708 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,839 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:32:59,937 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,064 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,208 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,335 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,440 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,529 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,684 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,806 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:00,914 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,026 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,145 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,294 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,394 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,516 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,646 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,773 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,856 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:01,970 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,077 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,217 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,296 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,433 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,561 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,650 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,760 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:02,898 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,047 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,186 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,273 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,367 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,502 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,623 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,725 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,829 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:03,967 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,083 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,213 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,353 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,471 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,585 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,725 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,851 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:04,967 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,090 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,222 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,316 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,455 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,562 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,666 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,777 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:05,925 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,064 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,173 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,279 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,400 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,483 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,602 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,714 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,875 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:06,967 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,075 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,234 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,368 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,482 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,576 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,713 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,845 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:07,952 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,040 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,204 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,333 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,473 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,578 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,697 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,837 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:08,995 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,139 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,286 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,389 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,504 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,600 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,732 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,843 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:09,994 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,115 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,253 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,370 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,489 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,614 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,706 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,828 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:10,971 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:11,396 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:11,820 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:11,993 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,126 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,250 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,370 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,508 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,600 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,733 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:12,859 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:13,023 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:13,115 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:13,208 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:13,356 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:13,479 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:13,479 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 153.1V
+2025-06-29 19:33:13,593 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:13,594 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 131.4V
+2025-06-29 19:33:13,676 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:13,677 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:13,817 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:13,817 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 144.6V
+2025-06-29 19:33:13,976 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:13,976 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:14,116 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,116 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 134.5V
+2025-06-29 19:33:14,248 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,249 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 119.8V
+2025-06-29 19:33:14,377 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,377 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 143.0V
+2025-06-29 19:33:14,509 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,509 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.6V
+2025-06-29 19:33:14,656 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,656 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 158.0V
+2025-06-29 19:33:14,754 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,755 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 161.1V
+2025-06-29 19:33:14,874 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:14,874 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 162.0V
+2025-06-29 19:33:15,005 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,005 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 162.9V
+2025-06-29 19:33:15,109 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,110 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:15,192 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,193 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:15,310 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,310 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 162.9V
+2025-06-29 19:33:15,437 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,438 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:15,579 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,579 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 161.7V
+2025-06-29 19:33:15,679 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,680 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 163.5V
+2025-06-29 19:33:15,788 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,788 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 165.1V
+2025-06-29 19:33:15,890 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:15,890 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 161.1V
+2025-06-29 19:33:16,020 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,020 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 156.2V
+2025-06-29 19:33:16,136 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,136 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.9V
+2025-06-29 19:33:16,242 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,242 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:16,319 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,319 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:16,406 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,406 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:16,557 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,558 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 159.2V
+2025-06-29 19:33:16,696 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,696 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.6V
+2025-06-29 19:33:16,805 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,805 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 156.5V
+2025-06-29 19:33:16,946 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:16,946 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 157.7V
+2025-06-29 19:33:17,034 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,035 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:17,132 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,132 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:17,253 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,253 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 156.2V
+2025-06-29 19:33:17,359 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,360 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:17,492 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,492 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 156.2V
+2025-06-29 19:33:17,599 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,599 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 154.1V
+2025-06-29 19:33:17,717 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,718 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 150.7V
+2025-06-29 19:33:17,838 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,838 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 150.7V
+2025-06-29 19:33:17,993 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:17,995 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 151.6V
+2025-06-29 19:33:18,125 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,126 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 154.1V
+2025-06-29 19:33:18,228 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,228 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 157.7V
+2025-06-29 19:33:18,330 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,331 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.6V
+2025-06-29 19:33:18,463 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,464 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.9V
+2025-06-29 19:33:18,550 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,550 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:18,649 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,649 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 153.1V
+2025-06-29 19:33:18,813 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,814 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 149.5V
+2025-06-29 19:33:18,951 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:18,951 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:19,093 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,093 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 155.0V
+2025-06-29 19:33:19,202 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,203 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 152.5V
+2025-06-29 19:33:19,328 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,329 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 151.9V
+2025-06-29 19:33:19,454 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,454 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 151.9V
+2025-06-29 19:33:19,548 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,548 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 151.9V
+2025-06-29 19:33:19,645 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,645 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 152.2V
+2025-06-29 19:33:19,817 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,817 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 153.4V
+2025-06-29 19:33:19,947 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:19,947 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:20,069 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,069 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 150.1V
+2025-06-29 19:33:20,166 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,166 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 280.8V
+2025-06-29 19:33:20,261 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,261 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 148.2V
+2025-06-29 19:33:20,430 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,430 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 150.7V
+2025-06-29 19:33:20,559 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,560 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 151.6V
+2025-06-29 19:33:20,733 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:20,733 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 148.9V
+2025-06-29 19:33:21,164 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:21,621 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:21,622 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -5.2V
+2025-06-29 19:33:21,773 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:21,773 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -3.1V
+2025-06-29 19:33:21,888 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:21,888 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -2.8V
+2025-06-29 19:33:21,999 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,000 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 132.2V
+2025-06-29 19:33:22,083 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,083 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 132.2V
+2025-06-29 19:33:22,196 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,196 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.0V
+2025-06-29 19:33:22,325 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,326 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -6.7V
+2025-06-29 19:33:22,480 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,481 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -5.8V
+2025-06-29 19:33:22,654 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,655 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -3.7V
+2025-06-29 19:33:22,772 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,772 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -2.4V
+2025-06-29 19:33:22,890 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:22,890 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -2.8V
+2025-06-29 19:33:23,020 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,020 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.3V
+2025-06-29 19:33:23,179 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,179 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.0V
+2025-06-29 19:33:23,307 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,307 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.6V
+2025-06-29 19:33:23,467 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,467 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.0V
+2025-06-29 19:33:23,578 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,578 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.6V
+2025-06-29 19:33:23,685 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:23,685 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -4.3V
+2025-06-29 19:33:24,118 - gui.flash_sinter_gui - INFO - Power supply in CV Mode
+2025-06-29 19:33:25,398 - gui.flash_sinter_gui - WARNING - Skipping invalid readings
+2025-06-29 19:33:25,517 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:25,518 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:25,670 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:25,670 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:25,788 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:25,788 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.1V
+2025-06-29 19:33:25,912 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:25,913 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 1.2V
+2025-06-29 19:33:26,020 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,020 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:26,157 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,157 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.8V
+2025-06-29 19:33:26,279 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,279 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 0.0V
+2025-06-29 19:33:26,434 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,435 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.9V
+2025-06-29 19:33:26,583 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,583 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.5V
+2025-06-29 19:33:26,713 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,713 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.6V
+2025-06-29 19:33:26,819 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,820 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.4V
+2025-06-29 19:33:26,945 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:26,945 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:27,076 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,076 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:27,194 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,194 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.9V
+2025-06-29 19:33:27,318 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,318 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 16.8V
+2025-06-29 19:33:27,453 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,454 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 24.8V
+2025-06-29 19:33:27,590 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,590 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 22.0V
+2025-06-29 19:33:27,739 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,739 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 16.8V
+2025-06-29 19:33:27,857 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:27,857 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:28,004 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,004 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 19.6V
+2025-06-29 19:33:28,134 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,135 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.4V
+2025-06-29 19:33:28,273 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,273 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:28,393 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,394 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 16.2V
+2025-06-29 19:33:28,503 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,503 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:28,674 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,675 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 19.6V
+2025-06-29 19:33:28,793 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,794 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 18.6V
+2025-06-29 19:33:28,924 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:28,924 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 20.2V
+2025-06-29 19:33:29,087 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,087 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 18.3V
+2025-06-29 19:33:29,225 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,225 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 18.6V
+2025-06-29 19:33:29,356 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,356 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.7V
+2025-06-29 19:33:29,493 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,493 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 18.6V
+2025-06-29 19:33:29,624 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,624 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.1V
+2025-06-29 19:33:29,739 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,739 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.8V
+2025-06-29 19:33:29,841 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,842 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:29,975 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:29,976 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.4V
+2025-06-29 19:33:30,113 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,114 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 21.4V
+2025-06-29 19:33:30,226 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,226 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 24.1V
+2025-06-29 19:33:30,385 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,385 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 23.5V
+2025-06-29 19:33:30,489 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,489 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:30,602 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,602 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:30,714 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,714 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 138.3V
+2025-06-29 19:33:30,837 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,838 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.7V
+2025-06-29 19:33:30,966 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:30,967 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.4V
+2025-06-29 19:33:31,432 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:31,433 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 0.3V
+2025-06-29 19:33:31,829 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:31,830 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -2.1V
+2025-06-29 19:33:31,985 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:31,985 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:32,116 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,116 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.3V
+2025-06-29 19:33:32,224 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,224 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:32,355 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,355 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:33:32,532 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,533 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:33:32,669 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,670 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.2V
+2025-06-29 19:33:32,810 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,810 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.2V
+2025-06-29 19:33:32,896 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:32,897 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:33,035 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,036 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:33,175 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,175 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.6V
+2025-06-29 19:33:33,333 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,334 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.2V
+2025-06-29 19:33:33,460 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,460 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:33:33,621 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,621 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.4V
+2025-06-29 19:33:33,704 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,704 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:33,855 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,855 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:33:33,952 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:33,952 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:34,088 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,088 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.5V
+2025-06-29 19:33:34,193 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,193 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 10.7V
+2025-06-29 19:33:34,326 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,326 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:34,409 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,410 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:34,557 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,558 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.5V
+2025-06-29 19:33:34,686 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,686 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.3V
+2025-06-29 19:33:34,847 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,847 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.6V
+2025-06-29 19:33:34,995 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:34,996 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.4V
+2025-06-29 19:33:35,134 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,134 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:35,247 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,248 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.4V
+2025-06-29 19:33:35,387 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,387 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.4V
+2025-06-29 19:33:35,503 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,504 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.8V
+2025-06-29 19:33:35,643 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,644 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:35,746 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,746 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:33:35,930 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:35,930 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.3V
+2025-06-29 19:33:36,041 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,041 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:33:36,157 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,158 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:36,297 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,297 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 10.1V
+2025-06-29 19:33:36,416 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,416 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:36,526 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,526 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.3V
+2025-06-29 19:33:36,658 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,659 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.3V
+2025-06-29 19:33:36,783 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,783 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.3V
+2025-06-29 19:33:36,973 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:36,973 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.9V
+2025-06-29 19:33:37,107 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,107 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.8V
+2025-06-29 19:33:37,232 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,232 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:37,344 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,345 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.0V
+2025-06-29 19:33:37,481 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,481 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:37,613 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,613 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.0V
+2025-06-29 19:33:37,783 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,784 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.4V
+2025-06-29 19:33:37,896 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:37,897 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:33:38,045 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,045 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:38,166 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,166 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.8V
+2025-06-29 19:33:38,320 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,320 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.2V
+2025-06-29 19:33:38,445 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,445 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 13.1V
+2025-06-29 19:33:38,620 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,621 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 16.2V
+2025-06-29 19:33:38,720 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,721 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:38,870 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:38,870 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:39,000 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,001 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 16.8V
+2025-06-29 19:33:39,159 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,159 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.1V
+2025-06-29 19:33:39,268 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,268 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:39,441 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,442 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:39,547 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,547 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:39,705 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,706 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.4V
+2025-06-29 19:33:39,824 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,824 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.7V
+2025-06-29 19:33:39,975 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:39,975 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:40,133 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,134 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 19.3V
+2025-06-29 19:33:40,305 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,306 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 19.3V
+2025-06-29 19:33:40,391 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,392 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:40,552 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,553 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 19.9V
+2025-06-29 19:33:40,665 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,666 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 21.1V
+2025-06-29 19:33:40,803 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,803 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:40,960 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:40,960 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.9V
+2025-06-29 19:33:41,110 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,110 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:41,239 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,240 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:33:41,388 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,389 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 20.2V
+2025-06-29 19:33:41,490 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,490 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 21.7V
+2025-06-29 19:33:41,640 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,640 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 20.8V
+2025-06-29 19:33:41,792 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,792 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 20.2V
+2025-06-29 19:33:41,997 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:41,998 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 20.5V
+2025-06-29 19:33:42,135 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,135 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:33:42,312 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,312 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.3V
+2025-06-29 19:33:42,405 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,405 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:42,601 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,601 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 15.9V
+2025-06-29 19:33:42,699 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,700 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 22.9V
+2025-06-29 19:33:42,878 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,878 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 22.6V
+2025-06-29 19:33:42,977 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:42,978 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:43,116 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,116 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:43,248 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,249 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 22.9V
+2025-06-29 19:33:43,449 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,449 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 18.0V
+2025-06-29 19:33:43,558 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,558 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 17.7V
+2025-06-29 19:33:43,727 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,727 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 14.1V
+2025-06-29 19:33:43,823 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,824 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:43,977 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:43,978 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:44,090 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,090 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:44,274 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,275 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.6V
+2025-06-29 19:33:44,369 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,369 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:44,513 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,513 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:44,624 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,624 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:33:44,794 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,794 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:44,879 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:44,880 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:45,088 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,088 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:33:45,176 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,176 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:45,324 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,324 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:45,465 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,465 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.9V
+2025-06-29 19:33:45,663 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,663 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.6V
+2025-06-29 19:33:45,741 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,742 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:45,911 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:45,911 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.2V
+2025-06-29 19:33:46,020 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,021 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:46,194 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,195 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:46,311 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,312 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 1.8V
+2025-06-29 19:33:46,496 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,496 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.4V
+2025-06-29 19:33:46,633 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,634 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.6V
+2025-06-29 19:33:46,834 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,835 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.8V
+2025-06-29 19:33:46,977 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:46,977 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.5V
+2025-06-29 19:33:47,172 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,173 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:33:47,295 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,295 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.8V
+2025-06-29 19:33:47,446 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,446 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:47,577 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,577 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.9V
+2025-06-29 19:33:47,757 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,757 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:33:47,863 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:47,863 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:48,038 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,038 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:48,175 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,176 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.3V
+2025-06-29 19:33:48,374 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,374 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.8V
+2025-06-29 19:33:48,503 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,504 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 10.4V
+2025-06-29 19:33:48,682 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,682 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:48,793 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,794 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.6V
+2025-06-29 19:33:48,960 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:48,960 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:49,072 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,072 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:49,270 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,271 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.1V
+2025-06-29 19:33:49,374 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,374 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:49,574 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,574 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:49,682 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,683 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:49,895 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:49,895 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.4V
+2025-06-29 19:33:50,017 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,017 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:50,212 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,213 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.6V
+2025-06-29 19:33:50,315 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,315 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.6V
+2025-06-29 19:33:50,472 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,472 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:50,619 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,620 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.9V
+2025-06-29 19:33:50,777 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,777 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:50,913 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:50,913 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by -3.4V
+2025-06-29 19:33:51,094 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,094 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:51,200 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,200 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:51,415 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,416 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.4V
+2025-06-29 19:33:51,524 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,524 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 3.1V
+2025-06-29 19:33:51,731 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,731 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.2V
+2025-06-29 19:33:51,839 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:51,839 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:52,060 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,060 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.1V
+2025-06-29 19:33:52,155 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,155 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.0V
+2025-06-29 19:33:52,340 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,340 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.9V
+2025-06-29 19:33:52,433 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,434 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:52,621 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,621 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 1.2V
+2025-06-29 19:33:52,743 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,743 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 0.0V
+2025-06-29 19:33:52,992 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:52,992 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 0.6V
+2025-06-29 19:33:53,102 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,102 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:53,284 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,284 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 0.3V
+2025-06-29 19:33:53,429 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,429 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.4V
+2025-06-29 19:33:53,621 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,621 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:53,700 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,701 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:53,916 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:53,916 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:54,004 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,004 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:54,196 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,196 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.1V
+2025-06-29 19:33:54,288 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,288 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:54,493 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,493 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.2V
+2025-06-29 19:33:54,618 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,618 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.6V
+2025-06-29 19:33:54,841 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:54,842 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 3.7V
+2025-06-29 19:33:55,004 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,004 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 3.1V
+2025-06-29 19:33:55,198 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,198 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:55,344 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,345 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.3V
+2025-06-29 19:33:55,605 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,605 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:55,726 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,726 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.1V
+2025-06-29 19:33:55,924 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:55,924 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.4V
+2025-06-29 19:33:56,048 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:56,048 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:56,265 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:56,265 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:56,372 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:56,372 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:56,613 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:56,614 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.8V
+2025-06-29 19:33:56,754 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:56,755 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.3V
+2025-06-29 19:33:57,005 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,006 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 3.1V
+2025-06-29 19:33:57,116 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,116 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:57,308 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,308 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.6V
+2025-06-29 19:33:57,430 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,430 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.3V
+2025-06-29 19:33:57,639 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,639 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.0V
+2025-06-29 19:33:57,719 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,720 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:57,990 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:57,990 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 2.4V
+2025-06-29 19:33:58,122 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:58,123 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 3.1V
+2025-06-29 19:33:58,339 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:58,339 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.8V
+2025-06-29 19:33:58,484 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:58,484 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.2V
+2025-06-29 19:33:58,683 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:58,683 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:58,768 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:58,768 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:33:59,014 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,014 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.4V
+2025-06-29 19:33:59,140 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,140 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 4.9V
+2025-06-29 19:33:59,366 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,366 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:33:59,506 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,506 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:59,725 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,725 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:33:59,818 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:33:59,818 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 6.7V
+2025-06-29 19:34:00,039 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,039 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.6V
+2025-06-29 19:34:00,172 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,172 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.2V
+2025-06-29 19:34:00,389 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,389 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:34:00,483 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,483 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:00,682 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,682 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:00,816 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:00,816 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.0V
+2025-06-29 19:34:01,021 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,021 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 5.5V
+2025-06-29 19:34:01,136 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,136 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.6V
+2025-06-29 19:34:01,338 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,338 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.9V
+2025-06-29 19:34:01,443 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,443 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.3V
+2025-06-29 19:34:01,648 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,648 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:34:01,761 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:01,761 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.9V
+2025-06-29 19:34:02,027 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,027 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 7.3V
+2025-06-29 19:34:02,121 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,121 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:02,337 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,338 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.2V
+2025-06-29 19:34:02,459 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,460 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.2V
+2025-06-29 19:34:02,679 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,679 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 10.4V
+2025-06-29 19:34:02,805 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:02,805 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 8.6V
+2025-06-29 19:34:03,021 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,022 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:03,131 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,132 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:03,361 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,362 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.5V
+2025-06-29 19:34:03,459 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,459 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 9.8V
+2025-06-29 19:34:03,687 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,687 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.9V
+2025-06-29 19:34:03,789 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:03,789 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 12.5V
+2025-06-29 19:34:04,044 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:04,045 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.0V
+2025-06-29 19:34:04,180 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:04,180 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 11.0V
+2025-06-29 19:34:04,395 - gui.flash_sinter_gui - INFO - Power supply in CC Mode
+2025-06-29 19:34:04,395 - gui.flash_sinter_gui - INFO - CC Mode: Voltage dropped by 121.2V
+2025-06-29 19:34:04,414 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-29 19:34:04,932 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

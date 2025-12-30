@@ -1,0 +1,20 @@
+2025-06-27 17:13:42,255 - gui.flash_sinter_gui - INFO - Apply Parameters and Change Condition buttons disabled
+2025-06-27 17:13:44,258 - gui.flash_sinter_gui - INFO - Serial connection established with Arduino on COM11
+2025-06-27 17:13:44,258 - gui.flash_sinter_gui - INFO - Initial parameters set: 0.4, 1.6, 1.0, 30.0, 100.0, Hold Time: 60.0s
+2025-06-27 17:13:44,258 - gui.flash_sinter_gui - INFO - Initial voltage: 12.00V, current: 160.00mA
+2025-06-27 17:13:56,070 - gui.flash_sinter_gui - INFO - Arduino response: Stepper motor control initialized
+2025-06-27 17:13:56,071 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:14:00,910 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:14:00,910 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:14:02,014 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:14:02,014 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:14:14,602 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:14:14,603 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:14:24,470 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:14:24,470 - gui.flash_sinter_gui - INFO - Loading (forward) command sent
+2025-06-27 17:14:26,262 - gui.flash_sinter_gui - INFO - Arduino response: Moving forward
+2025-06-27 17:14:26,262 - gui.flash_sinter_gui - INFO - Sliding stage started
+2025-06-27 17:14:28,146 - gui.flash_sinter_gui - INFO - Arduino response: RPM set to: 150
+2025-06-27 17:14:28,147 - gui.flash_sinter_gui - INFO - Sliding stage stopped
+2025-06-27 17:18:12,666 - gui.flash_sinter_gui - INFO - Arduino response: Motor stopped
+2025-06-27 17:18:12,741 - gui.flash_sinter_gui - INFO - Application closed and resources cleaned up

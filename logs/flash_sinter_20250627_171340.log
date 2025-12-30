@@ -1,0 +1,15 @@
+2025-06-27 17:13:40,997 - controllers.daq_keithley_controller - INFO - NI-DAQ tasks initialized successfully
+2025-06-27 17:13:41,609 - controllers.daq_keithley_controller - INFO - Keithley instrument initialized successfully
+2025-06-27 17:13:41,697 - controllers.device_controller - INFO - DAQ: Connected to Dev1
+2025-06-27 17:13:41,941 - controllers.device_controller - INFO - Keithley: Connected to USB0::0x05E6::0x6500::04645387::INSTR
+2025-06-27 17:13:41,943 - controllers.device_controller - INFO - DAQ analog input initialized
+2025-06-27 17:13:41,946 - controllers.device_controller - INFO - DAQ analog output initialized
+2025-06-27 17:13:41,951 - controllers.device_controller - INFO - Connected to Keithley: KEITHLEY INSTRUMENTS INC.,MODEL 2000,04645387,1.7.14j
+
+2025-06-27 17:13:44,258 - controllers.device_controller - INFO - Set voltage limit to 12.0V, current limit to 160.0mA (not applied yet)
+2025-06-27 17:18:12,693 - controllers.device_controller - INFO - Stopping process
+2025-06-27 17:18:12,695 - controllers.daq_keithley_controller - DEBUG - Set DAQ outputs - V: 0.00V->(0.000V), I: 0.00mA->(0.000V)
+2025-06-27 17:18:12,695 - controllers.daq_keithley_controller - DEBUG - MATLAB equivalent would be: V->(0.000V), I->(0.000V)
+2025-06-27 17:18:12,695 - controllers.device_controller - DEBUG - Set DAQ outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:18:12,696 - controllers.device_controller - DEBUG - Set Keithley outputs - V: 0.00V, I: 0.00mA
+2025-06-27 17:18:12,700 - controllers.device_controller - INFO - Device connections closed
