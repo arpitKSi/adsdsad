@@ -1,0 +1,12 @@
+nidaqmx>=0.6.0
+numpy>=1.21.0
+PyVISA>=1.12.0
+PyVISA-py>=0.5.3
+PyQt6>=6.4.0
+opencv-python>=4.5.0
+matplotlib>=3.4.0
+Pillow>=8.0.0
+scipy>=1.7.0
+simple-pid>=1.0.0
+pyvisa>=1.11.0
+pyserial>=3.5 
